@@ -1,27 +1,25 @@
 #ifndef EXERCISE_H
 #define EXERCISE_H
 
-#include<iostream>
-#include<string.h>
-#include <vector>
+#include <string>
+#include <iostream>
+
 using namespace std;
 
-class Exercise
+class Exercise 
 {
 protected:
-    string ExerciseName;
+    string exerciseName;
 
 public:
-    Exercise(const string& name)
-    {
-        ExerciseName = name;
-    };
-    virtual ~Exercise() = 0;
+    Exercise() : exerciseName("") {}
+    Exercise(const string& n) : exerciseName(n) {}
+    virtual ~Exercise() = default;
 
-    void setExerciseName(const string&);
     string getExerciseName() const;
-
-    virtual void printInfo() const;
+    void setExerciseName(const string& n);
+    
+    virtual void print() const = 0;
 };
 
 #endif

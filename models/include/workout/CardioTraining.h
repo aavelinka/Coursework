@@ -3,19 +3,24 @@
 
 #include "Exercise.h"
 
+using namespace std;
+
 class CardioTraining : public Exercise 
 {
-protected:
-    double duration;                                //добавится ходьба/бег в отличие от StrenthTraining
+private:
+    double duration;
 
 public:
-    CardioTraining(const string& n, double dur);
-    ~CardioTraining();
-
+    CardioTraining() : Exercise(""), duration(0.0) {}
+    CardioTraining(const string& n, double dur): Exercise(n), duration(dur) {}
+    
     double getDuration() const;
-    void setDuration(double);
-
-    void printInfo() const override;
+    void setDuration(double d);
+    
+    void print() const override;
+    
+    friend ostream& operator<<(ostream& os, const CardioTraining& c);
+    friend istream& operator>>(istream& is, CardioTraining& c);
 };
 
 #endif

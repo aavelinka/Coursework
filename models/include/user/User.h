@@ -2,26 +2,35 @@
 #define USER_H
 
 #include "Person.h"
+#include "BodyMeasurement.h"
 
-class User : public Person 
+using namespace std;
+
+class User : public Person
 {
-    private:
+private:
     int id;
     string password;
-    string goal; 
-
-    public:
-    User( const string& n, BodyMeasurement& m, const string pwd, string g, int i);
-    ~User();
-
+    string goal;
+    BodyMeasurement measurements;
+    
+public:
+    User() : Person(""), id(0), password(""), goal("") {}
+    User(const string& name, const BodyMeasurement& bm, const string& password, const string& goal, int id)
+    : Person(name), id(id), password(password), goal(goal), measurements(bm) {}
+    ~User() = default;
+    
     int getId() const;
-    void setId(int);
-    void setPassword(const string&);
     string getPassword() const;
-    void setGoal(const string&);
     string getGoal() const;
-
-    void printInfo() const override;
+    BodyMeasurement getMeasurements() const;
+    
+    void setMeasurements(const BodyMeasurement& bm);
+    
+    void printInfo() const;
+    
+    friend ostream& operator<<(ostream& os, const User& user);
+    friend istream& operator>>(istream& is, User& user);
 };
 
 #endif

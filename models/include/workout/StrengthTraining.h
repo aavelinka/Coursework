@@ -3,22 +3,23 @@
 
 #include "Exercise.h"
 
+using namespace std;
+
 class StrengthTraining : public Exercise 
 {
 protected:
-    int sets;                                                       // количество подходов
-    int reps;                                                       // количество повторений
-
+    int sets;
+    int reps;
 public:
-    StrengthTraining(const string& n, int s, int r, double w);
-    ~StrengthTraining();
-
+    StrengthTraining() : Exercise(""), sets(0), reps(0) {}
+    StrengthTraining(const string& n, int s, int r) : Exercise(n), sets(s), reps(r) {}
+    
     int getSets() const;
-    void setSets(int);
     int getReps() const;
-    void setReps(int);
-
-    void printInfo() const override;
+    void setSets(int s);
+    void setReps(int r);
+    
+    void print() const override;
 };
 
 #endif

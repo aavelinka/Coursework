@@ -3,19 +3,24 @@
 
 #include "StrengthTraining.h"
 
+using namespace std;
+
 class UpperBodyWorkout : public StrengthTraining 
 {
 private:
-    string upperBodyPart;                                                           // конкретная часть тела (грудь, спина, руки и т.д.)
-
+    string upperBodyPart;
 public:
-    UpperBodyWorkout(const string& n, int s, int r, const string& part);
-    ~UpperBodyWorkout();
-
+    UpperBodyWorkout() : StrengthTraining(), upperBodyPart("") {}
+    UpperBodyWorkout(const string& n, int s, int r, const string& part) : StrengthTraining(n, s, r), upperBodyPart(part) {}
+    ~UpperBodyWorkout() {}
+    
     string getUpperBodyPart() const;
     void setUpperBodyPart(const string& part);
+    
+    void print() const override;
 
-    void printInfo() const override;
+    friend ostream& operator<<(ostream& os, const UpperBodyWorkout& u);
+    friend istream& operator>>(istream& is, UpperBodyWorkout& u);
 };
 
 #endif

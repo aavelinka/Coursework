@@ -3,18 +3,23 @@
 
 #include "BodyMeasurement.h"
 
+using namespace std;
+
 class Person
 {
 protected:
-    string UserName;
-    BodyMeasurement Measurement;
+    string name;
+    BodyMeasurement measurements_; 
 
 public:
-    Person(const string& n, BodyMeasurement& m);
-    virtual ~Person() = 0;
+    Person(const string& n) : name(n) {} 
+    Person(const string& n, const BodyMeasurement& m) : name(n), measurements_(m) {} 
+    virtual ~Person() = default;
 
     string getName() const;
     void setName(const string&);
+
+    BodyMeasurement getBodyMeasurement() const;
 
     virtual void printInfo() const;
 };

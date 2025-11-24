@@ -1,0 +1,104 @@
+[
+{
+  "directory": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Coursework.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Coursework.dir\\main.cpp.obj -c \"D:\\programming\\C++programming\\PnaYAVU\\test\\avelina\\Coursework without Qt\\main.cpp\"",
+  "file": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/main.cpp",
+  "output": "CMakeFiles/Coursework.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Coursework.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Coursework.dir\\models\\src\\user\\BodyMeasurement.cpp.obj -c \"D:\\programming\\C++programming\\PnaYAVU\\test\\avelina\\Coursework without Qt\\models\\src\\user\\BodyMeasurement.cpp\"",
+  "file": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/models/src/user/BodyMeasurement.cpp",
+  "output": "CMakeFiles/Coursework.dir/models/src/user/BodyMeasurement.cpp.obj"
+},
+{
+  "directory": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Coursework.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Coursework.dir\\models\\src\\user\\Person.cpp.obj -c \"D:\\programming\\C++programming\\PnaYAVU\\test\\avelina\\Coursework without Qt\\models\\src\\user\\Person.cpp\"",
+  "file": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/models/src/user/Person.cpp",
+  "output": "CMakeFiles/Coursework.dir/models/src/user/Person.cpp.obj"
+},
+{
+  "directory": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Coursework.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Coursework.dir\\models\\src\\user\\User.cpp.obj -c \"D:\\programming\\C++programming\\PnaYAVU\\test\\avelina\\Coursework without Qt\\models\\src\\user\\User.cpp\"",
+  "file": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/models/src/user/User.cpp",
+  "output": "CMakeFiles/Coursework.dir/models/src/user/User.cpp.obj"
+},
+{
+  "directory": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Coursework.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Coursework.dir\\models\\src\\workout\\Exercise.cpp.obj -c \"D:\\programming\\C++programming\\PnaYAVU\\test\\avelina\\Coursework without Qt\\models\\src\\workout\\Exercise.cpp\"",
+  "file": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/models/src/workout/Exercise.cpp",
+  "output": "CMakeFiles/Coursework.dir/models/src/workout/Exercise.cpp.obj"
+},
+{
+  "directory": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Coursework.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Coursework.dir\\models\\src\\workout\\CardioTraining.cpp.obj -c \"D:\\programming\\C++programming\\PnaYAVU\\test\\avelina\\Coursework without Qt\\models\\src\\workout\\CardioTraining.cpp\"",
+  "file": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/models/src/workout/CardioTraining.cpp",
+  "output": "CMakeFiles/Coursework.dir/models/src/workout/CardioTraining.cpp.obj"
+},
+{
+  "directory": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Coursework.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Coursework.dir\\models\\src\\workout\\StrenthTraining.cpp.obj -c \"D:\\programming\\C++programming\\PnaYAVU\\test\\avelina\\Coursework without Qt\\models\\src\\workout\\StrenthTraining.cpp\"",
+  "file": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/models/src/workout/StrenthTraining.cpp",
+  "output": "CMakeFiles/Coursework.dir/models/src/workout/StrenthTraining.cpp.obj"
+},
+{
+  "directory": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Coursework.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Coursework.dir\\models\\src\\workout\\UpperBodyWorkout.cpp.obj -c \"D:\\programming\\C++programming\\PnaYAVU\\test\\avelina\\Coursework without Qt\\models\\src\\workout\\UpperBodyWorkout.cpp\"",
+  "file": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/models/src/workout/UpperBodyWorkout.cpp",
+  "output": "CMakeFiles/Coursework.dir/models/src/workout/UpperBodyWorkout.cpp.obj"
+},
+{
+  "directory": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Coursework.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Coursework.dir\\models\\src\\workout\\LowerBodyWorkout.cpp.obj -c \"D:\\programming\\C++programming\\PnaYAVU\\test\\avelina\\Coursework without Qt\\models\\src\\workout\\LowerBodyWorkout.cpp\"",
+  "file": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/models/src/workout/LowerBodyWorkout.cpp",
+  "output": "CMakeFiles/Coursework.dir/models/src/workout/LowerBodyWorkout.cpp.obj"
+},
+{
+  "directory": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Coursework.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Coursework.dir\\exceptions\\src\\Exception.cpp.obj -c \"D:\\programming\\C++programming\\PnaYAVU\\test\\avelina\\Coursework without Qt\\exceptions\\src\\Exception.cpp\"",
+  "file": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/exceptions/src/Exception.cpp",
+  "output": "CMakeFiles/Coursework.dir/exceptions/src/Exception.cpp.obj"
+},
+{
+  "directory": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Coursework.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Coursework.dir\\exceptions\\src\\FileException.cpp.obj -c \"D:\\programming\\C++programming\\PnaYAVU\\test\\avelina\\Coursework without Qt\\exceptions\\src\\FileException.cpp\"",
+  "file": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/exceptions/src/FileException.cpp",
+  "output": "CMakeFiles/Coursework.dir/exceptions/src/FileException.cpp.obj"
+},
+{
+  "directory": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Coursework.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Coursework.dir\\exceptions\\src\\InputException.cpp.obj -c \"D:\\programming\\C++programming\\PnaYAVU\\test\\avelina\\Coursework without Qt\\exceptions\\src\\InputException.cpp\"",
+  "file": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/exceptions/src/InputException.cpp",
+  "output": "CMakeFiles/Coursework.dir/exceptions/src/InputException.cpp.obj"
+},
+{
+  "directory": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Coursework.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Coursework.dir\\exceptions\\src\\InputValidator.cpp.obj -c \"D:\\programming\\C++programming\\PnaYAVU\\test\\avelina\\Coursework without Qt\\exceptions\\src\\InputValidator.cpp\"",
+  "file": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/exceptions/src/InputValidator.cpp",
+  "output": "CMakeFiles/Coursework.dir/exceptions/src/InputValidator.cpp.obj"
+},
+{
+  "directory": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Coursework.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Coursework.dir\\services\\src\\BMICalculator.cpp.obj -c \"D:\\programming\\C++programming\\PnaYAVU\\test\\avelina\\Coursework without Qt\\services\\src\\BMICalculator.cpp\"",
+  "file": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/services/src/BMICalculator.cpp",
+  "output": "CMakeFiles/Coursework.dir/services/src/BMICalculator.cpp.obj"
+},
+{
+  "directory": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Coursework.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Coursework.dir\\services\\src\\WorkoutService.cpp.obj -c \"D:\\programming\\C++programming\\PnaYAVU\\test\\avelina\\Coursework without Qt\\services\\src\\WorkoutService.cpp\"",
+  "file": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/services/src/WorkoutService.cpp",
+  "output": "CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.obj"
+},
+{
+  "directory": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Coursework.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Coursework.dir\\services\\src\\UserService.cpp.obj -c \"D:\\programming\\C++programming\\PnaYAVU\\test\\avelina\\Coursework without Qt\\services\\src\\UserService.cpp\"",
+  "file": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/services/src/UserService.cpp",
+  "output": "CMakeFiles/Coursework.dir/services/src/UserService.cpp.obj"
+},
+{
+  "directory": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Coursework.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Coursework.dir\\services\\src\\UndoManager.cpp.obj -c \"D:\\programming\\C++programming\\PnaYAVU\\test\\avelina\\Coursework without Qt\\services\\src\\UndoManager.cpp\"",
+  "file": "D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/services/src/UndoManager.cpp",
+  "output": "CMakeFiles/Coursework.dir/services/src/UndoManager.cpp.obj"
+}
+]

@@ -1,0 +1,3 @@
+D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build/CMakeFiles/Coursework.dir
+D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build/CMakeFiles/edit_cache.dir
+D:/programming/C++programming/PnaYAVU/test/avelina/Coursework without Qt/build/CMakeFiles/rebuild_cache.dir
