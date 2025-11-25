@@ -1,55 +1,66 @@
-#pragma once
+#ifndef INPUTVALIDATOR_H
+#define INPUTVALIDATOR_H
 
-#include "../../models/include/user/BodyMeasurement.h"
-#include <iostream>
-#include <string>
-#include <sstream>
+#include "InputException.h"
+#include "BodyMeasurement.h"
 #include <limits>
-#include <iomanip>
-#include <algorithm>
 #include <locale>
+#include <stdexcept>
+#include <tuple>
 
 using namespace std;
 
 template <typename T>
-T getValidNumericValue(std::istream& stream, T min, T max)
+T getValidNumericValue(istream& stream, T min, T max)
 {
     T value;
     string line;
-    
-    while (true)
+    bool success = false;
+    do
     {
-        if (!getline(stream, line))
+        try
         {
-            if (stream.eof())
+            if (!getline(stream, line))
             {
-                throw std::runtime_error("Конец потока ввода.");
+                if (stream.eof())
+                {
+                    throw runtime_error("Конец потока ввода."); 
+                }
+                stream.clear();
+                throw InputException(100, "Ошибка чтения строки.");
             }
-            stream.clear();
-            continue;
-        }
-        
-        stringstream ss(line);
-        if (ss >> value && ss.eof())
-        {
-            if (value >= min && value <= max)
+            
+            stringstream ss(line);
+            if (ss >> value && ss.eof())
             {
-                return value;
+                if (value >= min && value <= max)
+                {
+                    success = true;
+                    return value;
+                }
+                else
+                {
+                    stringstream err_ss;
+                    err_ss << "Число вне допустимого диапазона (от " << fixed << setprecision(1) << min << " до " << max << ").";
+                    throw InputException(200, err_ss.str());
+                }
             }
             else
             {
-                stringstream err_ss;
-                err_ss << "Число вне допустимого диапазона (от " << fixed << setprecision(1) << min << " до " << max << ").";
-                cout << err_ss.str() << "\n";
+                throw InputException(201, "Некорректный ввод. Ожидалось число.");
             }
         }
-        else
+        catch (const InputException& e)
         {
-            cout << "Некорректный ввод. Введите число.\n";
+            cout << "Error: " << e.what() << "\n";
+            success = false;
         }
-    }
+    } while (!success);
+    return value;
 }
 
 string safeGetline(istream& stream, bool isRussianOnly);
 string getValidPassword(istream& stream);
 Date readDate(istream& stream);
+
+#endif
