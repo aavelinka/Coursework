@@ -201,12 +201,12 @@ void selectUpperBodyExercises(const vector<UpperBodyWorkout*>& allExercises, int
     }
     
     int added = 0;
-    for (size_t partIdx = 0; partIdx < bodyParts.size() && added < totalNeeded; ++partIdx)
+    for (int i = 0; i < bodyParts.size() && added < totalNeeded; ++i)
     {
         int count = 0;
         for (UpperBodyWorkout* ex : allExercises)
         {
-            if (ex->getUpperBodyPart() == bodyParts[partIdx] && count < exercisesPerPart[partIdx] && added < totalNeeded)
+            if (ex->getUpperBodyPart() == bodyParts[i] && count < exercisesPerPart[i] && added < totalNeeded)
             {
                 int baseSets = ex->getSets();
                 int baseReps = ex->getReps();
@@ -236,12 +236,12 @@ void selectLowerBodyExercises(const vector<LowerBodyWorkout*>& allExercises, int
     }
     
     int added = 0;
-    for (size_t partIdx = 0; partIdx < bodyParts.size() && added < totalNeeded; ++partIdx)
+    for (int i = 0; i < bodyParts.size() && added < totalNeeded; ++i)
     {
         int count = 0;
         for (LowerBodyWorkout* ex : allExercises)
         {
-            if (ex->getLowerBodyPart() == bodyParts[partIdx] && count < exercisesPerPart[partIdx] && added < totalNeeded)
+            if (ex->getLowerBodyPart() == bodyParts[i] && count < exercisesPerPart[i] && added < totalNeeded)
             {
                 int baseSets = ex->getSets();
                 int baseReps = ex->getReps();
@@ -272,7 +272,7 @@ WorkoutPlan WorkoutService::createCustomPlan(User* user)
         cin.ignore();
         string name = safeGetline(cin, true);
         
-        cout << "Введите продолжительность (в минутах): ";
+        cout << "Введите продолжительность (в минутах: от 0 до 120): ";
         double duration = getValidNumericValue(cin, 0.0, 120.0);
         
         plan.cardio.push_back(new CardioTraining(name, duration));
@@ -316,9 +316,9 @@ WorkoutPlan WorkoutService::createCustomPlan(User* user)
             continue;
         }
         
-        cout << "Введите количество подходов: ";
+        cout << "Введите количество подходов(1-20): ";
         sets = getValidNumericValue(cin, 1, 20);
-        cout << "Введите количество повторений: ";
+        cout << "Введите количество повторений(1-20): ";
         reps = getValidNumericValue(cin, 1, 20);
         
         plan.upperBody.push_back(new UpperBodyWorkout(name, sets, reps, bodyPart));
@@ -359,9 +359,9 @@ WorkoutPlan WorkoutService::createCustomPlan(User* user)
             continue;
         }
         
-        cout << "Введите количество подходов: ";
+        cout << "Введите количество подходов(1-20): ";
         sets = getValidNumericValue(cin, 1, 20);
-        cout << "Введите количество повторений: ";
+        cout << "Введите количество повторений(1-20): ";
         reps = getValidNumericValue(cin, 1, 20);
         
         plan.lowerBody.push_back(new LowerBodyWorkout(name, sets, reps, bodyPart));

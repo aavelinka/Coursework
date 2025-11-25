@@ -1,17 +1,13 @@
-#include "models/include/user/User.h"
-#include "services/include/UserService.h"
-#include "services/include/WorkoutService.h"
-#include "services/include/BMICalculator.h"
-#include "services/include/UndoManager.h"
-#include "exceptions/include/InputException.h"
-#include "exceptions/include/FileException.h"
-#include "exceptions/include/InputValidator.h"
-#include <iostream>
-#include <cmath>
+#include "UserService.h"
+#include "WorkoutService.h"
+#include "BMICalculator.h"
+#include "UndoManager.h"
+#include "InputException.h"
+#include "FileException.h"
+#include "InputValidator.h"
 #include <limits>
 #include <map>
 #include <functional>
-#include <iomanip>
 
 using namespace std;
 
@@ -310,9 +306,9 @@ int main()
     User* currentUser = nullptr;
     int initialChoice;
     
-    string options[2] = {"1. Войти", "2. Зарегистрироваться"};
-    drawMenu("ФИТНЕС ТРЕКЕР: Авторизация", options, 2);
-    cout << "Выберите опцию (1-2): ";
+    string options[3] = {"1. Войти", "2. Зарегистрироваться", "3. Выход"};
+    drawMenu("ФИТНЕС ТРЕКЕР: Авторизация", options, 3);
+    cout << "Выберите опцию (1-3): ";
     
     try
     {
@@ -321,27 +317,30 @@ int main()
         if (initialChoice == 1)
         {
             currentUser = loginProcess(us);
-        }
-        else
+        } else if (initialChoice == 2)
         {
             registerNewUser(us);
             currentUser = loginProcess(us); 
+        } else 
+        {
+            return;
         }
     
         if (currentUser != nullptr)
         {
             app(currentUser);
             delete currentUser;
-        }
-        else
+        } else
         {
             cout << "Не удалось войти в систему. Завершение работы.\n";
         }
-    }
-    catch (const exception& e)
+    } catch (const exception& e)
     {
         cout << "Критическая ошибка: " << e.what() << endl;
-        if (currentUser != nullptr) delete currentUser;
+        if (currentUser != nullptr) 
+        {
+            delete currentUser;
+        }
     }
 
     return 0;
