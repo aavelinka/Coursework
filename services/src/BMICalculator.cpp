@@ -1,4 +1,4 @@
-#include "../include/BMICalculator.h"
+#include "BMICalculator.h"
 #include <iostream>
 
 double BMICalculator::calculateBMI(double weight, double height)

@@ -185,7 +185,7 @@ WorkoutPlan WorkoutService::generatePlan(User* user, double bmi, const string& f
     return plan;
 }
 
-void selectUpperBodyExercises(const vector<UpperBodyWorkout*>& allExercises, int targetCount, const vector<string>& bodyParts, vector<UpperBodyWorkout*>& planVector, int setsChange, int repsChange, int setsGoalAdjust)
+void WorkoutService::selectUpperBodyExercises(const vector<UpperBodyWorkout*>& allExercises, int targetCount, const vector<string>& bodyParts, vector<UpperBodyWorkout*>& planVector, int setsChange, int repsChange, int setsGoalAdjust)
 {
     //totalNeeded берет минимум через функцию min, чтобы не выйти за границы доступных упражнений
     int totalNeeded = min(targetCount, (int)allExercises.size());
@@ -194,10 +194,10 @@ void selectUpperBodyExercises(const vector<UpperBodyWorkout*>& allExercises, int
     
     int perPart = totalNeeded / bodyParts.size(); //базовое количество упражнений на каждую группу
     int remainder = totalNeeded % bodyParts.size(); //остаток который нужно распределить
-    for (size_t i = 0; i < bodyParts.size(); ++i)
+    for (int i = 0; i < bodyParts.size(); ++i)
     {
         //распределение по группам. первые remainder групп получают на 1 упражнение больше. пример: [3, 2, 2]
-        exercisesPerPart[i] = perPart + (i < (size_t)remainder ? 1 : 0);
+        exercisesPerPart[i] = perPart + (i < remainder ? 1 : 0);
     }
     
     int added = 0;
@@ -223,7 +223,7 @@ void selectUpperBodyExercises(const vector<UpperBodyWorkout*>& allExercises, int
     }
 }
 
-void selectLowerBodyExercises(const vector<LowerBodyWorkout*>& allExercises, int targetCount, const vector<string>& bodyParts, vector<LowerBodyWorkout*>& planVector, int setsChange, int repsChange, int setsGoalAdjust)
+void WorkoutService::selectLowerBodyExercises(const vector<LowerBodyWorkout*>& allExercises, int targetCount, const vector<string>& bodyParts, vector<LowerBodyWorkout*>& planVector, int setsChange, int repsChange, int setsGoalAdjust)
 {
     int totalNeeded = min(targetCount, (int)allExercises.size());
     vector<int> exercisesPerPart(bodyParts.size(), 0);

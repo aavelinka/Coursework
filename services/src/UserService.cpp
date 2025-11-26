@@ -83,7 +83,6 @@ User* UserService::registerUser(const string& name, const string& password, cons
     bm.setCurrentMeasurement(initialMeasurement);
     User* newUser = new User(name, bm, password, goal, newId);
     userFile.saveRecord(*newUser);
-    // saveMeasurement(newUser, initialMeasurement);
     measurementFile.saveRecord(initialMeasurement);
 
     for (User* u : existingUsers) 
@@ -112,14 +111,6 @@ User* UserService::loginUser(const string& username, const string& password)
         delete user;  // Пароль неверный - удаляем
         return nullptr;
     }
-}
-
-void UserService::saveMeasurement(User* user, const Measurement& measurement)
-{
-    BodyMeasurement bm = user->getBodyMeasurement();
-    bm.setCurrentMeasurement(measurement);
-    user->setMeasurements(bm);
-    measurementFile.saveRecord(measurement);
 }
 
 Measurement UserService::getLatestMeasurement(User* user)

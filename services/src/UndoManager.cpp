@@ -1,4 +1,4 @@
-#include "../include/UndoManager.h"
+#include "UndoManager.h"
 #include <iostream>
 
 void UndoManager::addAction(function<void()> undoAction)

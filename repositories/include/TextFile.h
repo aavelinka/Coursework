@@ -22,10 +22,7 @@ public:
     vector<T*> readAllRecords();
     void clearFile() const;
     void openFile(fstream& file, ios_base::openmode mode) const;
-    bool hasRecords() const {
-        ifstream file(filename);
-        return file.good() && file.peek() != EOF;
-    }
+    bool hasRecords() const;
 };
 
 #include "TextFile.tpp"
