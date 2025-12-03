@@ -13,6 +13,7 @@ protected:
 public:
     StrengthTraining() : Exercise(""), sets(0), reps(0) {}
     StrengthTraining(const string& n, int s, int r) : Exercise(n), sets(s), reps(r) {}
+    ~StrengthTraining() {}
     
     int getSets() const;
     int getReps() const;

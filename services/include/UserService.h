@@ -1,7 +1,7 @@
 #ifndef USERSERVICE_H
 #define USERSERVICE_H
 
-#include "User.h"
+#include "user/User.h"
 #include "TextFile.h"
 
 using namespace std;
@@ -9,14 +9,14 @@ using namespace std;
 class UserService
 {
 private:
-    TextFile<User> userFile;
-    TextFile<Measurement> measurementFile;
+    TextFile<User> userFile; //файл хранящий всех пользователей
+    TextFile<Measurement> measurementFile; //индивидуальный файл для записи замеров каждого пользователя
 
     User* findUserByUsername(const string& username);
     void loadLatestMeasurement(User* user);
 
 public:
-    UserService() : userFile("users.txt"), measurementFile("measurements.txt") {}
+    UserService() : userFile("users.txt"), measurementFile(""){}
     
     User* registerUser(const string& name, const string& password, const string& goal, const Measurement& initialMeasurement);
     User* loginUser(const string& username, const string& password);

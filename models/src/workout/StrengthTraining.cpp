@@ -1,4 +1,4 @@
-#include "StrengthTraining.h"
+#include "workout/StrengthTraining.h"
 
 int StrengthTraining::getSets() const 
 { 

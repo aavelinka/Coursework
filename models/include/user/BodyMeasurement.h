@@ -50,9 +50,9 @@ public:
     Measurement getCurrentMeasurement() const;
     void setCurrentMeasurement(const Measurement& measurement);
     bool hasMeasurement() const; 
-
-    friend ostream& operator<<(ostream& os, const Measurement& m);
-    friend istream& operator>>(istream& is, Measurement& m);
 };
+
+ostream& operator<<(ostream& os, const Measurement& m);
+istream& operator>>(istream& is, Measurement& m);
 
 #endif

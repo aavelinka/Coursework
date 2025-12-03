@@ -26,6 +26,8 @@ User* UserService::findUserByUsername(const string& username)
 
 void UserService::loadLatestMeasurement(User* user)
 {
+    const string measurementFileUser = "measurements_" + to_string(user->getId()) + ".txt";
+    measurementFile = TextFile<Measurement>(measurementFileUser);
     vector<Measurement*> measurements = measurementFile.readAllRecords();
     Measurement latest = {0.0, 0.0, 0.0, 0.0, 0.0, {0, 0, 0}};
     Date latestDate = {0, 0, 0};
@@ -83,7 +85,7 @@ User* UserService::registerUser(const string& name, const string& password, cons
     bm.setCurrentMeasurement(initialMeasurement);
     User* newUser = new User(name, bm, password, goal, newId);
     userFile.saveRecord(*newUser);
-    measurementFile.saveRecord(initialMeasurement);
+    saveMeasurement(newUser, initialMeasurement);
 
     for (User* u : existingUsers) 
     {
@@ -117,4 +119,12 @@ Measurement UserService::getLatestMeasurement(User* user)
 {
     loadLatestMeasurement(user);
     return user->getMeasurements().getCurrentMeasurement();
+}
+
+void UserService::saveMeasurement(User* user, const Measurement& measurement)
+{
+    const string measurementFileUser = "measurements_" + to_string(user->getId()) + ".txt";
+    measurementFile = TextFile<Measurement>(measurementFileUser);
+    measurementFile.saveRecord(measurement);
+    user->getMeasurements().setCurrentMeasurement(measurement);
 }

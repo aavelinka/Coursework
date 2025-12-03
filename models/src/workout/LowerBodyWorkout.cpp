@@ -1,4 +1,4 @@
-#include "LowerBodyWorkout.h"
+#include "workout/LowerBodyWorkout.h"
 #include <sstream>
 
 string LowerBodyWorkout::getLowerBodyPart() const 

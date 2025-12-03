@@ -1,4 +1,4 @@
-#include "WorkoutService.h"
+#include "../include/WorkoutService.h"
 #include "InputException.h"
 #include "TextFile.h"
 #include <type_traits>
@@ -11,13 +11,13 @@ vector<CardioTraining*> WorkoutService::loadCardioExercises()
 
 vector<UpperBodyWorkout*> WorkoutService::loadUpperBodyExercises()
 {
-    TextFile<UpperBodyWorkout> file("upperworkout.txt");
+    TextFile<UpperBodyWorkout> file("upperBodyExercises.txt");
     return file.readAllRecords();
 }
 
 vector<LowerBodyWorkout*> WorkoutService::loadLowerBodyExercises()
 {
-    TextFile<LowerBodyWorkout> file("lowerworkout.txt");
+    TextFile<LowerBodyWorkout> file("lowerBodyExercises.txt");
     return file.readAllRecords();
 }
 
@@ -60,29 +60,17 @@ WorkoutPlan WorkoutService::generatePlan(User* user, double bmi, const string& f
         durationMultiplier = 1.25;
     }
 
-    int setsGoalAdjust;
+    int setsGoalAdjust, cardioCount;
+    double durationGoalAdjust; 
     if(goal == "набор мышечной массы") 
     {
         setsGoalAdjust = 1;
-    } else 
+        durationGoalAdjust = 0.7;
+        cardioCount = 1;
+    } else if(goal == "похудение")
     {
         setsGoalAdjust = 0;
-    }
-    double durationGoalAdjust; 
-    if(goal == "похудение")
-    {
         durationGoalAdjust = 1.2;
-    } else if(goal == "набор мышечной массы")
-    {
-        durationGoalAdjust = 0.7;
-    } else
-    {
-        durationGoalAdjust = 1.0;
-    }
-
-    int cardioCount = 0;
-    if (goal == "похудение")
-    {
         if(bmi >= 30.0)
         {
             cardioCount = 4;
@@ -93,13 +81,9 @@ WorkoutPlan WorkoutService::generatePlan(User* user, double bmi, const string& f
         {
             cardioCount = 2;
         }
-    }
-    else if (goal == "набор мышечной массы")
+    } else 
     {
-        cardioCount = 1;
-    }
-    else
-    {
+        durationGoalAdjust = 1.0;
         cardioCount = 2;
     }
 
@@ -107,65 +91,44 @@ WorkoutPlan WorkoutService::generatePlan(User* user, double bmi, const string& f
     {
         CardioTraining* baseEx = allCardio[i];
         double newDuration = max(10.0, round(baseEx->getDuration() * durationMultiplier * durationGoalAdjust / 5.0) * 5.0);
-        
         plan.cardio.push_back(new CardioTraining(baseEx->getExerciseName(), newDuration));
     }
 
-    int upperCount;
+    int upperCount, lowerCount;
     if (goal == "набор мышечной массы")
     {
         if(fitnessLevel == "начальный")
         {
             upperCount = 5;
-        } else if(fitnessLevel == "средний")
-        {
-            upperCount = 7;
-        } else
-        {
-            upperCount = 9;
-        }
-    } else
-    {
-        if(fitnessLevel == "начальный")
-        {
-            upperCount = 3;
-        } else if(fitnessLevel == "средний")
-        {
-            upperCount = 5;
-        } else
-        {
-            upperCount = 7;
-        }
-    }
-    vector<string> upperBodyParts = {"Спина", "Грудь", "Плечи", "Бицепс", "Трицепс"};
-    selectUpperBodyExercises(allUpperBody, upperCount, upperBodyParts, plan.upperBody, setsChange, repsChange, setsGoalAdjust);
-    
-    int lowerCount;
-    if (goal == "набор мышечной массы")
-    {
-        if(fitnessLevel == "начальный")
-        {
             lowerCount = 4;
         } else if(fitnessLevel == "средний")
         {
+            upperCount = 7;
             lowerCount = 6;
         } else
         {
+            upperCount = 9;
             lowerCount = 8;
         }
     } else
     {
         if(fitnessLevel == "начальный")
         {
+            upperCount = 3;
             lowerCount = 2;
         } else if(fitnessLevel == "средний")
         {
+            upperCount = 5;
             lowerCount = 4;
         } else
         {
+            upperCount = 7;
             lowerCount = 6;
         }
     }
+    vector<string> upperBodyParts = {"Спина", "Грудь", "Плечи", "Бицепс", "Трицепс"};
+    selectUpperBodyExercises(allUpperBody, upperCount, upperBodyParts, plan.upperBody, setsChange, repsChange, setsGoalAdjust);
+  
     vector<string> lowerBodyParts = {"Квадрицепс", "Бицепс бедра", "Ягодицы"};
     selectLowerBodyExercises(allLowerBody, lowerCount, lowerBodyParts, plan.lowerBody, setsChange, repsChange, setsGoalAdjust);
 

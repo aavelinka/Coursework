@@ -1,4 +1,4 @@
-#include "CardioTraining.h"
+#include "workout/CardioTraining.h"
 #include <sstream>
 
 double CardioTraining::getDuration() const

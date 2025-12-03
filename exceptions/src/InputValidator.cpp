@@ -4,8 +4,6 @@
 #include <ctime>
 #include <regex>
 
-// ВАЖНО: Предполагаем, что Date теперь доступен через инклюд в InputValidator.h
-
 bool containsOnly(const string& str, const regex& pattern)
 {
     return regex_match(str, pattern);
@@ -27,54 +25,75 @@ bool isEmptyOrWhitespace(const string& str)
     return true;
 }
 
-string safeGetline(istream& stream, bool isRussianOnly)
-{
-    string line;
-    const regex russianRegex("^[а-яА-ЯёЁ\\s\\d]+$");
-    const regex englishRegex("^[a-zA-Z\\s\\d]+$");
-
+string safeGetline(istream& is, bool isRussian) {
+    string input;
     bool valid = false;
-    do
-    {
-        try
-        {
-            if (!getline(stream, line))
-            {
-                stream.clear();
-                throw InputException(300, "Ошибка чтения потока. Попробуйте снова.");
-            }
 
-            if (isEmptyOrWhitespace(line))
-            {
-                throw InputException(301, "Ввод не может быть пустым. Повторите.");
-            }
+    do {
 
-            if (isRussianOnly)
-            {
-                if (!containsOnly(line, russianRegex))
-                {
-                    throw InputException(302, "Необходимо использовать только русские буквы, пробелы и цифры. Повторите.");
-                }
-            }
-            else
-            {
-                if (!containsOnly(line, englishRegex))
-                {
-                    throw InputException(303, "Необходимо использовать только латинские буквы, пробелы и цифры. Повторите.");
-                }
-            }
-            
-            valid = true;
-            return line;
+        if (!getline(is, input)) {
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cout << "Input error. Try again.\n";
+            continue;
         }
-        catch (const InputException& e)
-        {
+
+        try {
+            if (input.empty()) {
+                throw InputException(5, "Empty input. Please enter a non-empty string.");
+            }
+
+            bool isValid = false;
+            if (!isRussian) {
+                isValid = isEnglishOnly(input);
+                if (!isValid) {
+                    throw InputException(6, "Invalid input. String must contain only English letters, spaces, or hyphens. Got: " + input);
+                }
+            } else if (isRussian) {
+                isValid = isRussianOnly(input);
+                if (!isValid) {
+                    throw InputException(7, "Invalid input. String must contain only Russian letters, spaces, or hyphens. Got: " + input);
+                }
+            }
+
+            valid = true;
+
+        } catch (const InputException& e) {
             cout << "Error: " << e.what() << "\n";
             valid = false;
         }
+
     } while (!valid);
 
-    return line;
+    return input;
+}
+
+bool isEnglishOnly(const string& str) {
+    if (str.empty()) return false;
+    for (char c : str) {
+        if (!isalpha(c) && c != ' ' && c != '-') {
+            return false;
+        }
+        if (isalpha(c) && !((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))) {
+            return false;
+        }
+    }
+    return true;
+}
+
+bool isRussianOnly(const string& str) {
+    if (str.empty()) return false;
+    for (unsigned char c : str) {
+        if (c < 128) {
+            if (isalpha(c) && ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))) {
+                return false;
+            }
+            if (!isspace(c) && c != '-') {
+            }
+        } else {
+        }
+    }
+    return true;
 }
 
 string getValidPassword(istream& stream)

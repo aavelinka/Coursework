@@ -1,6 +1,7 @@
 #ifndef TEXTFILE_H
 #define TEXTFILE_H
 
+#include "File.h"
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -17,6 +18,7 @@ public:
     TextFile(const string& fname) : File(fname) {}
     ~TextFile() = default;
 
+    TextFile<T>& operator=(const TextFile<T>& other);
     void saveRecord(const T& object);
     T* readRecord();
     vector<T*> readAllRecords();

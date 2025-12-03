@@ -1,4 +1,4 @@
-#include "UpperBodyWorkout.h"
+#include "workout/UpperBodyWorkout.h"
 #include <sstream>
 
 string UpperBodyWorkout::getUpperBodyPart() const 

@@ -1,4 +1,4 @@
-#include "Exercise.h"
+#include "workout/Exercise.h"
 
 string Exercise::getExerciseName() const 
 { 

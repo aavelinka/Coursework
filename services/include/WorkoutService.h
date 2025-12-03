@@ -1,11 +1,11 @@
 #ifndef WORKOUTSERVICE_H
 #define WORKOUTSERVICE_H
 
-#include "CardioTraining.h"
-#include "UpperBodyWorkout.h"
-#include "LowerBodyWorkout.h"
-#include "User.h"
-#include "InputValidator.h"
+#include "workout/CardioTraining.h"
+#include "workout/UpperBodyWorkout.h"
+#include "workout/LowerBodyWorkout.h"
+#include "user/User.h"
+#include "../include/InputValidator.h"
 #include "TextFile.h"
 #include <random>
 #include <cmath>

@@ -2,7 +2,7 @@
 #define INPUTVALIDATOR_H
 
 #include "InputException.h"
-#include "BodyMeasurement.h"
+#include "../../models/include/user/BodyMeasurement.h"
 #include <limits>
 #include <locale>
 #include <stdexcept>
@@ -59,8 +59,10 @@ T getValidNumericValue(istream& stream, T min, T max)
     return value;
 }
 
-string safeGetline(istream& stream, bool isRussianOnly);
+string safeGetline(istream& is, bool isRussianOnly);
 string getValidPassword(istream& stream);
 Date readDate(istream& stream);
+bool isRussianOnly(const string& str);
+bool isEnglishOnly(const string& str);
 
 #endif

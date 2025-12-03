@@ -13,6 +13,7 @@ private:
 public:
     CardioTraining() : Exercise(""), duration(0.0) {}
     CardioTraining(const string& n, double dur): Exercise(n), duration(dur) {}
+    ~CardioTraining() {}
     
     double getDuration() const;
     void setDuration(double d);

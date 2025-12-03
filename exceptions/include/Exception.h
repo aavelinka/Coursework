@@ -15,7 +15,8 @@ private:
 
 public:
     Exception(int code, const string& message) : code(code), message(message) {}
-    
+    ~Exception() {}
+
     const char* what() const noexcept override 
     {
         return message.c_str();
@@ -25,8 +26,6 @@ public:
     {
         return code;
     }
-    
-    ~Exception() {}
 };
 
 #endif

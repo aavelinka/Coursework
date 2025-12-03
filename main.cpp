@@ -237,9 +237,10 @@ void run()
     } else if (initialChoice == 2)
     {
         registerNewUser();
-        currentUser = loginProcess();
-    } else
+        currentUser = loginProcess(); 
+    } else 
     {
+        cout << "Выход..." << endl;
         return;
     }
     

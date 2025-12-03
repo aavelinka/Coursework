@@ -1,6 +1,6 @@
-CMakeFiles/Coursework.dir/models/src/workout/LowerBodyWorkout.cpp.o: \
-  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/src/workout/LowerBodyWorkout.cpp \
-  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include/workout/LowerBodyWorkout.h \
+CMakeFiles/Coursework.dir/models/src/workout/UpperBodyWorkout.cpp.o: \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/src/workout/UpperBodyWorkout.cpp \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include/workout/UpperBodyWorkout.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include/workout/StrengthTraining.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include/workout/Exercise.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \

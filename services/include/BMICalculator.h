@@ -1,7 +1,7 @@
 #ifndef BMICALCULATOR_H
 #define BMICALCULATOR_H
 
-#include "BodyMeasurement.h"
+#include "user/BodyMeasurement.h"
 #include <cmath>
 
 using namespace std;

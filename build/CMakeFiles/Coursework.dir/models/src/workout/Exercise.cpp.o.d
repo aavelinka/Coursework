@@ -1,7 +1,5 @@
-CMakeFiles/Coursework.dir/models/src/workout/LowerBodyWorkout.cpp.o: \
-  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/src/workout/LowerBodyWorkout.cpp \
-  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include/workout/LowerBodyWorkout.h \
-  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include/workout/StrengthTraining.h \
+CMakeFiles/Coursework.dir/models/src/workout/Exercise.cpp.o: \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/src/workout/Exercise.cpp \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include/workout/Exercise.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
@@ -793,5 +791,4 @@ CMakeFiles/Coursework.dir/models/src/workout/LowerBodyWorkout.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h

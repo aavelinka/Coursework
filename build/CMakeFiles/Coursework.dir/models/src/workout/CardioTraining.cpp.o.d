@@ -1,7 +1,6 @@
-CMakeFiles/Coursework.dir/models/src/workout/LowerBodyWorkout.cpp.o: \
-  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/src/workout/LowerBodyWorkout.cpp \
-  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include/workout/LowerBodyWorkout.h \
-  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include/workout/StrengthTraining.h \
+CMakeFiles/Coursework.dir/models/src/workout/CardioTraining.cpp.o: \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/src/workout/CardioTraining.cpp \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include/workout/CardioTraining.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include/workout/Exercise.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
