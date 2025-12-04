@@ -465,6 +465,30 @@ services/src/WorkoutService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.s
 .PHONY : services/src/WorkoutService.cpp.s
 
+utils/src/Menu.o: utils/src/Menu.cpp.o
+.PHONY : utils/src/Menu.o
+
+# target to build an object file
+utils/src/Menu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/utils/src/Menu.cpp.o
+.PHONY : utils/src/Menu.cpp.o
+
+utils/src/Menu.i: utils/src/Menu.cpp.i
+.PHONY : utils/src/Menu.i
+
+# target to preprocess a source file
+utils/src/Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/utils/src/Menu.cpp.i
+.PHONY : utils/src/Menu.cpp.i
+
+utils/src/Menu.s: utils/src/Menu.cpp.s
+.PHONY : utils/src/Menu.s
+
+# target to generate assembly for a file
+utils/src/Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/utils/src/Menu.cpp.s
+.PHONY : utils/src/Menu.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -516,6 +540,9 @@ help:
 	@echo "... services/src/WorkoutService.o"
 	@echo "... services/src/WorkoutService.i"
 	@echo "... services/src/WorkoutService.s"
+	@echo "... utils/src/Menu.o"
+	@echo "... utils/src/Menu.i"
+	@echo "... utils/src/Menu.s"
 .PHONY : help
 
 

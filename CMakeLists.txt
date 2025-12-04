@@ -42,6 +42,7 @@ set(EXCEPTION_SOURCES
 
 set(UTILS_SOURCES
     utils/include/Menu.h
+    utils/src/Menu.cpp
 )
 
 set(REPOSITORY_SOURCES

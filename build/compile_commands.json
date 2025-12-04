@@ -61,6 +61,12 @@
 },
 {
   "directory": "/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build",
+  "command": "/usr/bin/clang++  -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/exceptions/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/repositories/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/services/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Coursework.dir/utils/src/Menu.cpp.o -c /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/src/Menu.cpp",
+  "file": "/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/src/Menu.cpp",
+  "output": "CMakeFiles/Coursework.dir/utils/src/Menu.cpp.o"
+},
+{
+  "directory": "/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build",
   "command": "/usr/bin/clang++  -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/exceptions/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/repositories/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/services/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/Coursework.dir/services/src/BMICalculator.cpp.o -c /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/services/src/BMICalculator.cpp",
   "file": "/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/services/src/BMICalculator.cpp",
   "output": "CMakeFiles/Coursework.dir/services/src/BMICalculator.cpp.o"

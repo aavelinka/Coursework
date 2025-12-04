@@ -22,10 +22,6 @@ struct Date
     bool operator>(const Date& a) 
     {
         return tie(this->year, this->month, this->day) > tie(a.year, a.month, a.day);
-        //return (m->date.year > latestDate.year || 
-        //(m->date.year == latestDate.year && m->date.month > latestDate.month) ||
-        //(m->date.year == latestDate.year && m->date.month == latestDate.month && m->date.day > latestDate.day))
-
     }
 };
 
@@ -39,6 +35,9 @@ struct Measurement
     Date date;
 };
 
+ostream& operator<<(ostream& os, const Measurement& m);
+istream& operator>>(istream& is, Measurement& m);
+
 class BodyMeasurement
 {
 private:
@@ -51,8 +50,5 @@ public:
     void setCurrentMeasurement(const Measurement& measurement);
     bool hasMeasurement() const; 
 };
-
-ostream& operator<<(ostream& os, const Measurement& m);
-istream& operator>>(istream& is, Measurement& m);
 
 #endif

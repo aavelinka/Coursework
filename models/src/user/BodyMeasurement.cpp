@@ -1,4 +1,5 @@
 #include "user/BodyMeasurement.h"
+#include "../../../exceptions/include/InputValidator.h"
 
 string Date::toString() const
 {
@@ -6,27 +7,25 @@ string Date::toString() const
     ss << setfill('0') << setw(4) << year << "-" 
        << setfill('0') << setw(2) << month << "-" 
        << setfill('0') << setw(2) << day;
+
     return ss.str();
 }
 
 Date Date::fromString(const string& dateStr)
 {
     Date date = {0, 0, 0};
-    try
-    {
-        date.year = stoi(dateStr.substr(0, 4));
-        date.month = stoi(dateStr.substr(5, 2));
-        date.day = stoi(dateStr.substr(8, 2));
-    }
-    catch (...)
-    {
-    }
+
+    date.year = stoi(dateStr.substr(0, 4));
+    date.month = stoi(dateStr.substr(5, 2));
+    date.day = stoi(dateStr.substr(8, 2));
+
     return date;
 }
 
 ostream& operator<<(ostream& os, const Date& date)
 {
     os << date.toString();
+
     return os;
 }
 
@@ -106,5 +105,6 @@ istream& operator>>(istream& is, Measurement& m)
             is.setstate(ios::failbit);
         }
     }
+
     return is;
 }

@@ -1,7 +1,7 @@
-CMakeFiles/Coursework.dir/main.cpp.o: \
-  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/main.cpp \
-  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/include/Menu.h \
-  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/include/../../services/include/UserService.h \
+CMakeFiles/Coursework.dir/utils/src/Menu.cpp.o: \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/src/Menu.cpp \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/src/../include/Menu.h \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/src/../include/../../services/include/UserService.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include/user/User.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include/user/Person.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include/user/BodyMeasurement.h \
@@ -823,7 +823,7 @@ CMakeFiles/Coursework.dir/main.cpp.o: \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/exceptions/include/FileException.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/exceptions/include/Exception.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/repositories/include/TextFile.tpp \
-  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/include/../../services/include/WorkoutService.h \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/src/../include/../../services/include/WorkoutService.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include/workout/CardioTraining.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include/workout/Exercise.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include/workout/UpperBodyWorkout.h \
@@ -883,8 +883,8 @@ CMakeFiles/Coursework.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
-  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/include/../../services/include/BMICalculator.h \
-  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/include/../../services/include/UndoManager.h \
-  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/include/../../exceptions/include/InputException.h \
-  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/include/../../exceptions/include/FileException.h \
-  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/include/../../exceptions/include/InputValidator.h
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/src/../include/../../services/include/BMICalculator.h \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/src/../include/../../services/include/UndoManager.h \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/src/../include/../../exceptions/include/InputException.h \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/src/../include/../../exceptions/include/FileException.h \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/src/../include/../../exceptions/include/InputValidator.h

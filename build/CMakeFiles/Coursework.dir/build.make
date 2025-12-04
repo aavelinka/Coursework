@@ -212,10 +212,24 @@ CMakeFiles/Coursework.dir/exceptions/src/InputValidator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Coursework.dir/exceptions/src/InputValidator.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/exceptions/src/InputValidator.cpp -o CMakeFiles/Coursework.dir/exceptions/src/InputValidator.cpp.s
 
+CMakeFiles/Coursework.dir/utils/src/Menu.cpp.o: CMakeFiles/Coursework.dir/flags.make
+CMakeFiles/Coursework.dir/utils/src/Menu.cpp.o: /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/src/Menu.cpp
+CMakeFiles/Coursework.dir/utils/src/Menu.cpp.o: CMakeFiles/Coursework.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Coursework.dir/utils/src/Menu.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Coursework.dir/utils/src/Menu.cpp.o -MF CMakeFiles/Coursework.dir/utils/src/Menu.cpp.o.d -o CMakeFiles/Coursework.dir/utils/src/Menu.cpp.o -c /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/src/Menu.cpp
+
+CMakeFiles/Coursework.dir/utils/src/Menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Coursework.dir/utils/src/Menu.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/src/Menu.cpp > CMakeFiles/Coursework.dir/utils/src/Menu.cpp.i
+
+CMakeFiles/Coursework.dir/utils/src/Menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Coursework.dir/utils/src/Menu.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/src/Menu.cpp -o CMakeFiles/Coursework.dir/utils/src/Menu.cpp.s
+
 CMakeFiles/Coursework.dir/services/src/BMICalculator.cpp.o: CMakeFiles/Coursework.dir/flags.make
 CMakeFiles/Coursework.dir/services/src/BMICalculator.cpp.o: /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/services/src/BMICalculator.cpp
 CMakeFiles/Coursework.dir/services/src/BMICalculator.cpp.o: CMakeFiles/Coursework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Coursework.dir/services/src/BMICalculator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Coursework.dir/services/src/BMICalculator.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Coursework.dir/services/src/BMICalculator.cpp.o -MF CMakeFiles/Coursework.dir/services/src/BMICalculator.cpp.o.d -o CMakeFiles/Coursework.dir/services/src/BMICalculator.cpp.o -c /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/services/src/BMICalculator.cpp
 
 CMakeFiles/Coursework.dir/services/src/BMICalculator.cpp.i: cmake_force
@@ -229,7 +243,7 @@ CMakeFiles/Coursework.dir/services/src/BMICalculator.cpp.s: cmake_force
 CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.o: CMakeFiles/Coursework.dir/flags.make
 CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.o: /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/services/src/WorkoutService.cpp
 CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.o: CMakeFiles/Coursework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.o -MF CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.o.d -o CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.o -c /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/services/src/WorkoutService.cpp
 
 CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.i: cmake_force
@@ -243,7 +257,7 @@ CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.s: cmake_force
 CMakeFiles/Coursework.dir/services/src/UserService.cpp.o: CMakeFiles/Coursework.dir/flags.make
 CMakeFiles/Coursework.dir/services/src/UserService.cpp.o: /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/services/src/UserService.cpp
 CMakeFiles/Coursework.dir/services/src/UserService.cpp.o: CMakeFiles/Coursework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Coursework.dir/services/src/UserService.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Coursework.dir/services/src/UserService.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Coursework.dir/services/src/UserService.cpp.o -MF CMakeFiles/Coursework.dir/services/src/UserService.cpp.o.d -o CMakeFiles/Coursework.dir/services/src/UserService.cpp.o -c /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/services/src/UserService.cpp
 
 CMakeFiles/Coursework.dir/services/src/UserService.cpp.i: cmake_force
@@ -257,7 +271,7 @@ CMakeFiles/Coursework.dir/services/src/UserService.cpp.s: cmake_force
 CMakeFiles/Coursework.dir/services/src/UndoManager.cpp.o: CMakeFiles/Coursework.dir/flags.make
 CMakeFiles/Coursework.dir/services/src/UndoManager.cpp.o: /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/services/src/UndoManager.cpp
 CMakeFiles/Coursework.dir/services/src/UndoManager.cpp.o: CMakeFiles/Coursework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Coursework.dir/services/src/UndoManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Coursework.dir/services/src/UndoManager.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Coursework.dir/services/src/UndoManager.cpp.o -MF CMakeFiles/Coursework.dir/services/src/UndoManager.cpp.o.d -o CMakeFiles/Coursework.dir/services/src/UndoManager.cpp.o -c /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/services/src/UndoManager.cpp
 
 CMakeFiles/Coursework.dir/services/src/UndoManager.cpp.i: cmake_force
@@ -280,6 +294,7 @@ Coursework_OBJECTS = \
 "CMakeFiles/Coursework.dir/models/src/workout/UpperBodyWorkout.cpp.o" \
 "CMakeFiles/Coursework.dir/models/src/workout/LowerBodyWorkout.cpp.o" \
 "CMakeFiles/Coursework.dir/exceptions/src/InputValidator.cpp.o" \
+"CMakeFiles/Coursework.dir/utils/src/Menu.cpp.o" \
 "CMakeFiles/Coursework.dir/services/src/BMICalculator.cpp.o" \
 "CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.o" \
 "CMakeFiles/Coursework.dir/services/src/UserService.cpp.o" \
@@ -298,13 +313,14 @@ bin/Coursework: CMakeFiles/Coursework.dir/models/src/workout/StrengthTraining.cp
 bin/Coursework: CMakeFiles/Coursework.dir/models/src/workout/UpperBodyWorkout.cpp.o
 bin/Coursework: CMakeFiles/Coursework.dir/models/src/workout/LowerBodyWorkout.cpp.o
 bin/Coursework: CMakeFiles/Coursework.dir/exceptions/src/InputValidator.cpp.o
+bin/Coursework: CMakeFiles/Coursework.dir/utils/src/Menu.cpp.o
 bin/Coursework: CMakeFiles/Coursework.dir/services/src/BMICalculator.cpp.o
 bin/Coursework: CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.o
 bin/Coursework: CMakeFiles/Coursework.dir/services/src/UserService.cpp.o
 bin/Coursework: CMakeFiles/Coursework.dir/services/src/UndoManager.cpp.o
 bin/Coursework: CMakeFiles/Coursework.dir/build.make
 bin/Coursework: CMakeFiles/Coursework.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable bin/Coursework"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable bin/Coursework"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Coursework.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -794,4 +794,8 @@ CMakeFiles/Coursework.dir/models/src/user/BodyMeasurement.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/regex
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/regex \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/src/user/../../../exceptions/include/InputValidator.h \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/src/user/../../../exceptions/include/InputException.h \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/src/user/../../../exceptions/include/Exception.h \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/src/user/../../../exceptions/include/../../models/include/user/BodyMeasurement.h

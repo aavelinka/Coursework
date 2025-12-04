@@ -22,6 +22,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/services/src/UndoManager.cpp" "CMakeFiles/Coursework.dir/services/src/UndoManager.cpp.o" "gcc" "CMakeFiles/Coursework.dir/services/src/UndoManager.cpp.o.d"
   "/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/services/src/UserService.cpp" "CMakeFiles/Coursework.dir/services/src/UserService.cpp.o" "gcc" "CMakeFiles/Coursework.dir/services/src/UserService.cpp.o.d"
   "/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/services/src/WorkoutService.cpp" "CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.o" "gcc" "CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.o.d"
+  "/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/src/Menu.cpp" "CMakeFiles/Coursework.dir/utils/src/Menu.cpp.o" "gcc" "CMakeFiles/Coursework.dir/utils/src/Menu.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -27,6 +27,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Coursework.dir/services/src/UserService.cpp.o.d"
   "CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.o"
   "CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.o.d"
+  "CMakeFiles/Coursework.dir/utils/src/Menu.cpp.o"
+  "CMakeFiles/Coursework.dir/utils/src/Menu.cpp.o.d"
   "bin/Coursework"
   "bin/Coursework.pdb"
 )
