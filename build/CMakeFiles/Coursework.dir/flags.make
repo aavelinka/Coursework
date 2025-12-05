@@ -4,9 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/models/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/exceptions/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/utils/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/repositories/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/services/include
+CXX_INCLUDES = -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/Coursework_autogen/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/utils/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include
 
-CXX_FLAGSarm64 = -g -std=gnu++17 -arch arm64
-
-CXX_FLAGS = -g -std=gnu++17 -arch arm64
+CXX_FLAGS = -g -std=gnu++17
 

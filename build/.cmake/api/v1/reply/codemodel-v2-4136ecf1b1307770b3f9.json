@@ -1,0 +1,132 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Coursework",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Coursework::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Coursework-Debug-daadaa21418803cd6538.json",
+					"name" : "Coursework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CourseworkGUI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CourseworkGUI-Debug-bcecdfe84a2f6126f7c1.json",
+					"name" : "CourseworkGUI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CourseworkGUI_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CourseworkGUI_autogen-Debug-c413353aa7201bc400f1.json",
+					"name" : "CourseworkGUI_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CourseworkGUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CourseworkGUI_autogen_timestamp_deps-Debug-579fc0df29f28c2468ee.json",
+					"name" : "CourseworkGUI_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Coursework_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Coursework_autogen-Debug-d88c13805120650fb094.json",
+					"name" : "Coursework_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Coursework_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Coursework_autogen_timestamp_deps-Debug-30eacac29d068a8703bf.json",
+					"name" : "Coursework_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coursework_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coursework_core-Debug-e60ea14d1f188aa18b8e.json",
+					"name" : "coursework_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coursework_core_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coursework_core_autogen-Debug-9be060f496a5ad912a60.json",
+					"name" : "coursework_core_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coursework_core_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coursework_core_autogen_timestamp_deps-Debug-061141c38023f6ee1eac.json",
+					"name" : "coursework_core_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build",
+		"source" : "/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

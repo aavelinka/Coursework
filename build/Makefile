@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named coursework_core
+
+# Build rule for target.
+coursework_core: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 coursework_core
+.PHONY : coursework_core
+
+# fast build rule for target.
+coursework_core/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/build
+.PHONY : coursework_core/fast
+
+#=============================================================================
 # Target rules for targets named Coursework
 
 # Build rule for target.
@@ -129,365 +142,648 @@ Coursework/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/build
 .PHONY : Coursework/fast
 
-exceptions/src/InputValidator.o: exceptions/src/InputValidator.cpp.o
-.PHONY : exceptions/src/InputValidator.o
+#=============================================================================
+# Target rules for targets named CourseworkGUI
+
+# Build rule for target.
+CourseworkGUI: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CourseworkGUI
+.PHONY : CourseworkGUI
+
+# fast build rule for target.
+CourseworkGUI/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI.dir/build.make CMakeFiles/CourseworkGUI.dir/build
+.PHONY : CourseworkGUI/fast
+
+#=============================================================================
+# Target rules for targets named coursework_core_autogen_timestamp_deps
+
+# Build rule for target.
+coursework_core_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 coursework_core_autogen_timestamp_deps
+.PHONY : coursework_core_autogen_timestamp_deps
+
+# fast build rule for target.
+coursework_core_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core_autogen_timestamp_deps.dir/build.make CMakeFiles/coursework_core_autogen_timestamp_deps.dir/build
+.PHONY : coursework_core_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named coursework_core_autogen
+
+# Build rule for target.
+coursework_core_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 coursework_core_autogen
+.PHONY : coursework_core_autogen
+
+# fast build rule for target.
+coursework_core_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core_autogen.dir/build.make CMakeFiles/coursework_core_autogen.dir/build
+.PHONY : coursework_core_autogen/fast
+
+#=============================================================================
+# Target rules for targets named Coursework_autogen_timestamp_deps
+
+# Build rule for target.
+Coursework_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Coursework_autogen_timestamp_deps
+.PHONY : Coursework_autogen_timestamp_deps
+
+# fast build rule for target.
+Coursework_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework_autogen_timestamp_deps.dir/build.make CMakeFiles/Coursework_autogen_timestamp_deps.dir/build
+.PHONY : Coursework_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named Coursework_autogen
+
+# Build rule for target.
+Coursework_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Coursework_autogen
+.PHONY : Coursework_autogen
+
+# fast build rule for target.
+Coursework_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework_autogen.dir/build.make CMakeFiles/Coursework_autogen.dir/build
+.PHONY : Coursework_autogen/fast
+
+#=============================================================================
+# Target rules for targets named CourseworkGUI_autogen_timestamp_deps
+
+# Build rule for target.
+CourseworkGUI_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CourseworkGUI_autogen_timestamp_deps
+.PHONY : CourseworkGUI_autogen_timestamp_deps
+
+# fast build rule for target.
+CourseworkGUI_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI_autogen_timestamp_deps.dir/build.make CMakeFiles/CourseworkGUI_autogen_timestamp_deps.dir/build
+.PHONY : CourseworkGUI_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named CourseworkGUI_autogen
+
+# Build rule for target.
+CourseworkGUI_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CourseworkGUI_autogen
+.PHONY : CourseworkGUI_autogen
+
+# fast build rule for target.
+CourseworkGUI_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI_autogen.dir/build.make CMakeFiles/CourseworkGUI_autogen.dir/build
+.PHONY : CourseworkGUI_autogen/fast
+
+CourseworkGUI_autogen/mocs_compilation.o: CourseworkGUI_autogen/mocs_compilation.cpp.o
+.PHONY : CourseworkGUI_autogen/mocs_compilation.o
 
 # target to build an object file
-exceptions/src/InputValidator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/exceptions/src/InputValidator.cpp.o
-.PHONY : exceptions/src/InputValidator.cpp.o
+CourseworkGUI_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI.dir/build.make CMakeFiles/CourseworkGUI.dir/CourseworkGUI_autogen/mocs_compilation.cpp.o
+.PHONY : CourseworkGUI_autogen/mocs_compilation.cpp.o
 
-exceptions/src/InputValidator.i: exceptions/src/InputValidator.cpp.i
-.PHONY : exceptions/src/InputValidator.i
+CourseworkGUI_autogen/mocs_compilation.i: CourseworkGUI_autogen/mocs_compilation.cpp.i
+.PHONY : CourseworkGUI_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-exceptions/src/InputValidator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/exceptions/src/InputValidator.cpp.i
-.PHONY : exceptions/src/InputValidator.cpp.i
+CourseworkGUI_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI.dir/build.make CMakeFiles/CourseworkGUI.dir/CourseworkGUI_autogen/mocs_compilation.cpp.i
+.PHONY : CourseworkGUI_autogen/mocs_compilation.cpp.i
 
-exceptions/src/InputValidator.s: exceptions/src/InputValidator.cpp.s
-.PHONY : exceptions/src/InputValidator.s
+CourseworkGUI_autogen/mocs_compilation.s: CourseworkGUI_autogen/mocs_compilation.cpp.s
+.PHONY : CourseworkGUI_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-exceptions/src/InputValidator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/exceptions/src/InputValidator.cpp.s
-.PHONY : exceptions/src/InputValidator.cpp.s
+CourseworkGUI_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI.dir/build.make CMakeFiles/CourseworkGUI.dir/CourseworkGUI_autogen/mocs_compilation.cpp.s
+.PHONY : CourseworkGUI_autogen/mocs_compilation.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+Coursework_autogen/mocs_compilation.o: Coursework_autogen/mocs_compilation.cpp.o
+.PHONY : Coursework_autogen/mocs_compilation.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/main.cpp.o
-.PHONY : main.cpp.o
+Coursework_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/Coursework_autogen/mocs_compilation.cpp.o
+.PHONY : Coursework_autogen/mocs_compilation.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+Coursework_autogen/mocs_compilation.i: Coursework_autogen/mocs_compilation.cpp.i
+.PHONY : Coursework_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/main.cpp.i
-.PHONY : main.cpp.i
+Coursework_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/Coursework_autogen/mocs_compilation.cpp.i
+.PHONY : Coursework_autogen/mocs_compilation.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+Coursework_autogen/mocs_compilation.s: Coursework_autogen/mocs_compilation.cpp.s
+.PHONY : Coursework_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/main.cpp.s
-.PHONY : main.cpp.s
+Coursework_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/Coursework_autogen/mocs_compilation.cpp.s
+.PHONY : Coursework_autogen/mocs_compilation.cpp.s
 
-models/src/user/BodyMeasurement.o: models/src/user/BodyMeasurement.cpp.o
-.PHONY : models/src/user/BodyMeasurement.o
+core/exceptions/src/InputValidator.o: core/exceptions/src/InputValidator.cpp.o
+.PHONY : core/exceptions/src/InputValidator.o
 
 # target to build an object file
-models/src/user/BodyMeasurement.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/user/BodyMeasurement.cpp.o
-.PHONY : models/src/user/BodyMeasurement.cpp.o
+core/exceptions/src/InputValidator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/exceptions/src/InputValidator.cpp.o
+.PHONY : core/exceptions/src/InputValidator.cpp.o
 
-models/src/user/BodyMeasurement.i: models/src/user/BodyMeasurement.cpp.i
-.PHONY : models/src/user/BodyMeasurement.i
+core/exceptions/src/InputValidator.i: core/exceptions/src/InputValidator.cpp.i
+.PHONY : core/exceptions/src/InputValidator.i
 
 # target to preprocess a source file
-models/src/user/BodyMeasurement.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/user/BodyMeasurement.cpp.i
-.PHONY : models/src/user/BodyMeasurement.cpp.i
+core/exceptions/src/InputValidator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/exceptions/src/InputValidator.cpp.i
+.PHONY : core/exceptions/src/InputValidator.cpp.i
 
-models/src/user/BodyMeasurement.s: models/src/user/BodyMeasurement.cpp.s
-.PHONY : models/src/user/BodyMeasurement.s
+core/exceptions/src/InputValidator.s: core/exceptions/src/InputValidator.cpp.s
+.PHONY : core/exceptions/src/InputValidator.s
 
 # target to generate assembly for a file
-models/src/user/BodyMeasurement.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/user/BodyMeasurement.cpp.s
-.PHONY : models/src/user/BodyMeasurement.cpp.s
+core/exceptions/src/InputValidator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/exceptions/src/InputValidator.cpp.s
+.PHONY : core/exceptions/src/InputValidator.cpp.s
 
-models/src/user/Person.o: models/src/user/Person.cpp.o
-.PHONY : models/src/user/Person.o
+core/models/src/user/BodyMeasurement.o: core/models/src/user/BodyMeasurement.cpp.o
+.PHONY : core/models/src/user/BodyMeasurement.o
 
 # target to build an object file
-models/src/user/Person.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/user/Person.cpp.o
-.PHONY : models/src/user/Person.cpp.o
+core/models/src/user/BodyMeasurement.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/user/BodyMeasurement.cpp.o
+.PHONY : core/models/src/user/BodyMeasurement.cpp.o
 
-models/src/user/Person.i: models/src/user/Person.cpp.i
-.PHONY : models/src/user/Person.i
+core/models/src/user/BodyMeasurement.i: core/models/src/user/BodyMeasurement.cpp.i
+.PHONY : core/models/src/user/BodyMeasurement.i
 
 # target to preprocess a source file
-models/src/user/Person.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/user/Person.cpp.i
-.PHONY : models/src/user/Person.cpp.i
+core/models/src/user/BodyMeasurement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/user/BodyMeasurement.cpp.i
+.PHONY : core/models/src/user/BodyMeasurement.cpp.i
 
-models/src/user/Person.s: models/src/user/Person.cpp.s
-.PHONY : models/src/user/Person.s
+core/models/src/user/BodyMeasurement.s: core/models/src/user/BodyMeasurement.cpp.s
+.PHONY : core/models/src/user/BodyMeasurement.s
 
 # target to generate assembly for a file
-models/src/user/Person.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/user/Person.cpp.s
-.PHONY : models/src/user/Person.cpp.s
+core/models/src/user/BodyMeasurement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/user/BodyMeasurement.cpp.s
+.PHONY : core/models/src/user/BodyMeasurement.cpp.s
 
-models/src/user/User.o: models/src/user/User.cpp.o
-.PHONY : models/src/user/User.o
+core/models/src/user/Person.o: core/models/src/user/Person.cpp.o
+.PHONY : core/models/src/user/Person.o
 
 # target to build an object file
-models/src/user/User.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/user/User.cpp.o
-.PHONY : models/src/user/User.cpp.o
+core/models/src/user/Person.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/user/Person.cpp.o
+.PHONY : core/models/src/user/Person.cpp.o
 
-models/src/user/User.i: models/src/user/User.cpp.i
-.PHONY : models/src/user/User.i
+core/models/src/user/Person.i: core/models/src/user/Person.cpp.i
+.PHONY : core/models/src/user/Person.i
 
 # target to preprocess a source file
-models/src/user/User.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/user/User.cpp.i
-.PHONY : models/src/user/User.cpp.i
+core/models/src/user/Person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/user/Person.cpp.i
+.PHONY : core/models/src/user/Person.cpp.i
 
-models/src/user/User.s: models/src/user/User.cpp.s
-.PHONY : models/src/user/User.s
+core/models/src/user/Person.s: core/models/src/user/Person.cpp.s
+.PHONY : core/models/src/user/Person.s
 
 # target to generate assembly for a file
-models/src/user/User.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/user/User.cpp.s
-.PHONY : models/src/user/User.cpp.s
+core/models/src/user/Person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/user/Person.cpp.s
+.PHONY : core/models/src/user/Person.cpp.s
 
-models/src/workout/CardioTraining.o: models/src/workout/CardioTraining.cpp.o
-.PHONY : models/src/workout/CardioTraining.o
+core/models/src/user/User.o: core/models/src/user/User.cpp.o
+.PHONY : core/models/src/user/User.o
 
 # target to build an object file
-models/src/workout/CardioTraining.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/workout/CardioTraining.cpp.o
-.PHONY : models/src/workout/CardioTraining.cpp.o
+core/models/src/user/User.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/user/User.cpp.o
+.PHONY : core/models/src/user/User.cpp.o
 
-models/src/workout/CardioTraining.i: models/src/workout/CardioTraining.cpp.i
-.PHONY : models/src/workout/CardioTraining.i
+core/models/src/user/User.i: core/models/src/user/User.cpp.i
+.PHONY : core/models/src/user/User.i
 
 # target to preprocess a source file
-models/src/workout/CardioTraining.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/workout/CardioTraining.cpp.i
-.PHONY : models/src/workout/CardioTraining.cpp.i
+core/models/src/user/User.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/user/User.cpp.i
+.PHONY : core/models/src/user/User.cpp.i
 
-models/src/workout/CardioTraining.s: models/src/workout/CardioTraining.cpp.s
-.PHONY : models/src/workout/CardioTraining.s
+core/models/src/user/User.s: core/models/src/user/User.cpp.s
+.PHONY : core/models/src/user/User.s
 
 # target to generate assembly for a file
-models/src/workout/CardioTraining.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/workout/CardioTraining.cpp.s
-.PHONY : models/src/workout/CardioTraining.cpp.s
+core/models/src/user/User.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/user/User.cpp.s
+.PHONY : core/models/src/user/User.cpp.s
 
-models/src/workout/Exercise.o: models/src/workout/Exercise.cpp.o
-.PHONY : models/src/workout/Exercise.o
+core/models/src/workout/CardioTraining.o: core/models/src/workout/CardioTraining.cpp.o
+.PHONY : core/models/src/workout/CardioTraining.o
 
 # target to build an object file
-models/src/workout/Exercise.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/workout/Exercise.cpp.o
-.PHONY : models/src/workout/Exercise.cpp.o
+core/models/src/workout/CardioTraining.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/workout/CardioTraining.cpp.o
+.PHONY : core/models/src/workout/CardioTraining.cpp.o
 
-models/src/workout/Exercise.i: models/src/workout/Exercise.cpp.i
-.PHONY : models/src/workout/Exercise.i
+core/models/src/workout/CardioTraining.i: core/models/src/workout/CardioTraining.cpp.i
+.PHONY : core/models/src/workout/CardioTraining.i
 
 # target to preprocess a source file
-models/src/workout/Exercise.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/workout/Exercise.cpp.i
-.PHONY : models/src/workout/Exercise.cpp.i
+core/models/src/workout/CardioTraining.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/workout/CardioTraining.cpp.i
+.PHONY : core/models/src/workout/CardioTraining.cpp.i
 
-models/src/workout/Exercise.s: models/src/workout/Exercise.cpp.s
-.PHONY : models/src/workout/Exercise.s
+core/models/src/workout/CardioTraining.s: core/models/src/workout/CardioTraining.cpp.s
+.PHONY : core/models/src/workout/CardioTraining.s
 
 # target to generate assembly for a file
-models/src/workout/Exercise.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/workout/Exercise.cpp.s
-.PHONY : models/src/workout/Exercise.cpp.s
+core/models/src/workout/CardioTraining.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/workout/CardioTraining.cpp.s
+.PHONY : core/models/src/workout/CardioTraining.cpp.s
 
-models/src/workout/LowerBodyWorkout.o: models/src/workout/LowerBodyWorkout.cpp.o
-.PHONY : models/src/workout/LowerBodyWorkout.o
+core/models/src/workout/Exercise.o: core/models/src/workout/Exercise.cpp.o
+.PHONY : core/models/src/workout/Exercise.o
 
 # target to build an object file
-models/src/workout/LowerBodyWorkout.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/workout/LowerBodyWorkout.cpp.o
-.PHONY : models/src/workout/LowerBodyWorkout.cpp.o
+core/models/src/workout/Exercise.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/workout/Exercise.cpp.o
+.PHONY : core/models/src/workout/Exercise.cpp.o
 
-models/src/workout/LowerBodyWorkout.i: models/src/workout/LowerBodyWorkout.cpp.i
-.PHONY : models/src/workout/LowerBodyWorkout.i
+core/models/src/workout/Exercise.i: core/models/src/workout/Exercise.cpp.i
+.PHONY : core/models/src/workout/Exercise.i
 
 # target to preprocess a source file
-models/src/workout/LowerBodyWorkout.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/workout/LowerBodyWorkout.cpp.i
-.PHONY : models/src/workout/LowerBodyWorkout.cpp.i
+core/models/src/workout/Exercise.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/workout/Exercise.cpp.i
+.PHONY : core/models/src/workout/Exercise.cpp.i
 
-models/src/workout/LowerBodyWorkout.s: models/src/workout/LowerBodyWorkout.cpp.s
-.PHONY : models/src/workout/LowerBodyWorkout.s
+core/models/src/workout/Exercise.s: core/models/src/workout/Exercise.cpp.s
+.PHONY : core/models/src/workout/Exercise.s
 
 # target to generate assembly for a file
-models/src/workout/LowerBodyWorkout.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/workout/LowerBodyWorkout.cpp.s
-.PHONY : models/src/workout/LowerBodyWorkout.cpp.s
+core/models/src/workout/Exercise.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/workout/Exercise.cpp.s
+.PHONY : core/models/src/workout/Exercise.cpp.s
 
-models/src/workout/StrengthTraining.o: models/src/workout/StrengthTraining.cpp.o
-.PHONY : models/src/workout/StrengthTraining.o
+core/models/src/workout/LowerBodyWorkout.o: core/models/src/workout/LowerBodyWorkout.cpp.o
+.PHONY : core/models/src/workout/LowerBodyWorkout.o
 
 # target to build an object file
-models/src/workout/StrengthTraining.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/workout/StrengthTraining.cpp.o
-.PHONY : models/src/workout/StrengthTraining.cpp.o
+core/models/src/workout/LowerBodyWorkout.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/workout/LowerBodyWorkout.cpp.o
+.PHONY : core/models/src/workout/LowerBodyWorkout.cpp.o
 
-models/src/workout/StrengthTraining.i: models/src/workout/StrengthTraining.cpp.i
-.PHONY : models/src/workout/StrengthTraining.i
+core/models/src/workout/LowerBodyWorkout.i: core/models/src/workout/LowerBodyWorkout.cpp.i
+.PHONY : core/models/src/workout/LowerBodyWorkout.i
 
 # target to preprocess a source file
-models/src/workout/StrengthTraining.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/workout/StrengthTraining.cpp.i
-.PHONY : models/src/workout/StrengthTraining.cpp.i
+core/models/src/workout/LowerBodyWorkout.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/workout/LowerBodyWorkout.cpp.i
+.PHONY : core/models/src/workout/LowerBodyWorkout.cpp.i
 
-models/src/workout/StrengthTraining.s: models/src/workout/StrengthTraining.cpp.s
-.PHONY : models/src/workout/StrengthTraining.s
+core/models/src/workout/LowerBodyWorkout.s: core/models/src/workout/LowerBodyWorkout.cpp.s
+.PHONY : core/models/src/workout/LowerBodyWorkout.s
 
 # target to generate assembly for a file
-models/src/workout/StrengthTraining.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/workout/StrengthTraining.cpp.s
-.PHONY : models/src/workout/StrengthTraining.cpp.s
+core/models/src/workout/LowerBodyWorkout.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/workout/LowerBodyWorkout.cpp.s
+.PHONY : core/models/src/workout/LowerBodyWorkout.cpp.s
 
-models/src/workout/UpperBodyWorkout.o: models/src/workout/UpperBodyWorkout.cpp.o
-.PHONY : models/src/workout/UpperBodyWorkout.o
+core/models/src/workout/StrengthTraining.o: core/models/src/workout/StrengthTraining.cpp.o
+.PHONY : core/models/src/workout/StrengthTraining.o
 
 # target to build an object file
-models/src/workout/UpperBodyWorkout.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/workout/UpperBodyWorkout.cpp.o
-.PHONY : models/src/workout/UpperBodyWorkout.cpp.o
+core/models/src/workout/StrengthTraining.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/workout/StrengthTraining.cpp.o
+.PHONY : core/models/src/workout/StrengthTraining.cpp.o
 
-models/src/workout/UpperBodyWorkout.i: models/src/workout/UpperBodyWorkout.cpp.i
-.PHONY : models/src/workout/UpperBodyWorkout.i
+core/models/src/workout/StrengthTraining.i: core/models/src/workout/StrengthTraining.cpp.i
+.PHONY : core/models/src/workout/StrengthTraining.i
 
 # target to preprocess a source file
-models/src/workout/UpperBodyWorkout.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/workout/UpperBodyWorkout.cpp.i
-.PHONY : models/src/workout/UpperBodyWorkout.cpp.i
+core/models/src/workout/StrengthTraining.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/workout/StrengthTraining.cpp.i
+.PHONY : core/models/src/workout/StrengthTraining.cpp.i
 
-models/src/workout/UpperBodyWorkout.s: models/src/workout/UpperBodyWorkout.cpp.s
-.PHONY : models/src/workout/UpperBodyWorkout.s
+core/models/src/workout/StrengthTraining.s: core/models/src/workout/StrengthTraining.cpp.s
+.PHONY : core/models/src/workout/StrengthTraining.s
 
 # target to generate assembly for a file
-models/src/workout/UpperBodyWorkout.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/models/src/workout/UpperBodyWorkout.cpp.s
-.PHONY : models/src/workout/UpperBodyWorkout.cpp.s
+core/models/src/workout/StrengthTraining.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/workout/StrengthTraining.cpp.s
+.PHONY : core/models/src/workout/StrengthTraining.cpp.s
 
-services/src/BMICalculator.o: services/src/BMICalculator.cpp.o
-.PHONY : services/src/BMICalculator.o
+core/models/src/workout/UpperBodyWorkout.o: core/models/src/workout/UpperBodyWorkout.cpp.o
+.PHONY : core/models/src/workout/UpperBodyWorkout.o
 
 # target to build an object file
-services/src/BMICalculator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/services/src/BMICalculator.cpp.o
-.PHONY : services/src/BMICalculator.cpp.o
+core/models/src/workout/UpperBodyWorkout.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/workout/UpperBodyWorkout.cpp.o
+.PHONY : core/models/src/workout/UpperBodyWorkout.cpp.o
 
-services/src/BMICalculator.i: services/src/BMICalculator.cpp.i
-.PHONY : services/src/BMICalculator.i
+core/models/src/workout/UpperBodyWorkout.i: core/models/src/workout/UpperBodyWorkout.cpp.i
+.PHONY : core/models/src/workout/UpperBodyWorkout.i
 
 # target to preprocess a source file
-services/src/BMICalculator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/services/src/BMICalculator.cpp.i
-.PHONY : services/src/BMICalculator.cpp.i
+core/models/src/workout/UpperBodyWorkout.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/workout/UpperBodyWorkout.cpp.i
+.PHONY : core/models/src/workout/UpperBodyWorkout.cpp.i
 
-services/src/BMICalculator.s: services/src/BMICalculator.cpp.s
-.PHONY : services/src/BMICalculator.s
+core/models/src/workout/UpperBodyWorkout.s: core/models/src/workout/UpperBodyWorkout.cpp.s
+.PHONY : core/models/src/workout/UpperBodyWorkout.s
 
 # target to generate assembly for a file
-services/src/BMICalculator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/services/src/BMICalculator.cpp.s
-.PHONY : services/src/BMICalculator.cpp.s
+core/models/src/workout/UpperBodyWorkout.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/models/src/workout/UpperBodyWorkout.cpp.s
+.PHONY : core/models/src/workout/UpperBodyWorkout.cpp.s
 
-services/src/UndoManager.o: services/src/UndoManager.cpp.o
-.PHONY : services/src/UndoManager.o
+core/services/src/BMICalculator.o: core/services/src/BMICalculator.cpp.o
+.PHONY : core/services/src/BMICalculator.o
 
 # target to build an object file
-services/src/UndoManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/services/src/UndoManager.cpp.o
-.PHONY : services/src/UndoManager.cpp.o
+core/services/src/BMICalculator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/services/src/BMICalculator.cpp.o
+.PHONY : core/services/src/BMICalculator.cpp.o
 
-services/src/UndoManager.i: services/src/UndoManager.cpp.i
-.PHONY : services/src/UndoManager.i
+core/services/src/BMICalculator.i: core/services/src/BMICalculator.cpp.i
+.PHONY : core/services/src/BMICalculator.i
 
 # target to preprocess a source file
-services/src/UndoManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/services/src/UndoManager.cpp.i
-.PHONY : services/src/UndoManager.cpp.i
+core/services/src/BMICalculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/services/src/BMICalculator.cpp.i
+.PHONY : core/services/src/BMICalculator.cpp.i
 
-services/src/UndoManager.s: services/src/UndoManager.cpp.s
-.PHONY : services/src/UndoManager.s
+core/services/src/BMICalculator.s: core/services/src/BMICalculator.cpp.s
+.PHONY : core/services/src/BMICalculator.s
 
 # target to generate assembly for a file
-services/src/UndoManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/services/src/UndoManager.cpp.s
-.PHONY : services/src/UndoManager.cpp.s
+core/services/src/BMICalculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/services/src/BMICalculator.cpp.s
+.PHONY : core/services/src/BMICalculator.cpp.s
 
-services/src/UserService.o: services/src/UserService.cpp.o
-.PHONY : services/src/UserService.o
+core/services/src/UndoManager.o: core/services/src/UndoManager.cpp.o
+.PHONY : core/services/src/UndoManager.o
 
 # target to build an object file
-services/src/UserService.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/services/src/UserService.cpp.o
-.PHONY : services/src/UserService.cpp.o
+core/services/src/UndoManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/services/src/UndoManager.cpp.o
+.PHONY : core/services/src/UndoManager.cpp.o
 
-services/src/UserService.i: services/src/UserService.cpp.i
-.PHONY : services/src/UserService.i
+core/services/src/UndoManager.i: core/services/src/UndoManager.cpp.i
+.PHONY : core/services/src/UndoManager.i
 
 # target to preprocess a source file
-services/src/UserService.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/services/src/UserService.cpp.i
-.PHONY : services/src/UserService.cpp.i
+core/services/src/UndoManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/services/src/UndoManager.cpp.i
+.PHONY : core/services/src/UndoManager.cpp.i
 
-services/src/UserService.s: services/src/UserService.cpp.s
-.PHONY : services/src/UserService.s
+core/services/src/UndoManager.s: core/services/src/UndoManager.cpp.s
+.PHONY : core/services/src/UndoManager.s
 
 # target to generate assembly for a file
-services/src/UserService.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/services/src/UserService.cpp.s
-.PHONY : services/src/UserService.cpp.s
+core/services/src/UndoManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/services/src/UndoManager.cpp.s
+.PHONY : core/services/src/UndoManager.cpp.s
 
-services/src/WorkoutService.o: services/src/WorkoutService.cpp.o
-.PHONY : services/src/WorkoutService.o
+core/services/src/UserService.o: core/services/src/UserService.cpp.o
+.PHONY : core/services/src/UserService.o
 
 # target to build an object file
-services/src/WorkoutService.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.o
-.PHONY : services/src/WorkoutService.cpp.o
+core/services/src/UserService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/services/src/UserService.cpp.o
+.PHONY : core/services/src/UserService.cpp.o
 
-services/src/WorkoutService.i: services/src/WorkoutService.cpp.i
-.PHONY : services/src/WorkoutService.i
+core/services/src/UserService.i: core/services/src/UserService.cpp.i
+.PHONY : core/services/src/UserService.i
 
 # target to preprocess a source file
-services/src/WorkoutService.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.i
-.PHONY : services/src/WorkoutService.cpp.i
+core/services/src/UserService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/services/src/UserService.cpp.i
+.PHONY : core/services/src/UserService.cpp.i
 
-services/src/WorkoutService.s: services/src/WorkoutService.cpp.s
-.PHONY : services/src/WorkoutService.s
+core/services/src/UserService.s: core/services/src/UserService.cpp.s
+.PHONY : core/services/src/UserService.s
 
 # target to generate assembly for a file
-services/src/WorkoutService.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/services/src/WorkoutService.cpp.s
-.PHONY : services/src/WorkoutService.cpp.s
+core/services/src/UserService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/services/src/UserService.cpp.s
+.PHONY : core/services/src/UserService.cpp.s
 
-utils/src/Menu.o: utils/src/Menu.cpp.o
-.PHONY : utils/src/Menu.o
+core/services/src/WorkoutService.o: core/services/src/WorkoutService.cpp.o
+.PHONY : core/services/src/WorkoutService.o
 
 # target to build an object file
-utils/src/Menu.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/utils/src/Menu.cpp.o
-.PHONY : utils/src/Menu.cpp.o
+core/services/src/WorkoutService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/services/src/WorkoutService.cpp.o
+.PHONY : core/services/src/WorkoutService.cpp.o
 
-utils/src/Menu.i: utils/src/Menu.cpp.i
-.PHONY : utils/src/Menu.i
+core/services/src/WorkoutService.i: core/services/src/WorkoutService.cpp.i
+.PHONY : core/services/src/WorkoutService.i
 
 # target to preprocess a source file
-utils/src/Menu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/utils/src/Menu.cpp.i
-.PHONY : utils/src/Menu.cpp.i
+core/services/src/WorkoutService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/services/src/WorkoutService.cpp.i
+.PHONY : core/services/src/WorkoutService.cpp.i
 
-utils/src/Menu.s: utils/src/Menu.cpp.s
-.PHONY : utils/src/Menu.s
+core/services/src/WorkoutService.s: core/services/src/WorkoutService.cpp.s
+.PHONY : core/services/src/WorkoutService.s
 
 # target to generate assembly for a file
-utils/src/Menu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/utils/src/Menu.cpp.s
-.PHONY : utils/src/Menu.cpp.s
+core/services/src/WorkoutService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/services/src/WorkoutService.cpp.s
+.PHONY : core/services/src/WorkoutService.cpp.s
+
+core/utils/src/Menu.o: core/utils/src/Menu.cpp.o
+.PHONY : core/utils/src/Menu.o
+
+# target to build an object file
+core/utils/src/Menu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/utils/src/Menu.cpp.o
+.PHONY : core/utils/src/Menu.cpp.o
+
+core/utils/src/Menu.i: core/utils/src/Menu.cpp.i
+.PHONY : core/utils/src/Menu.i
+
+# target to preprocess a source file
+core/utils/src/Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/utils/src/Menu.cpp.i
+.PHONY : core/utils/src/Menu.cpp.i
+
+core/utils/src/Menu.s: core/utils/src/Menu.cpp.s
+.PHONY : core/utils/src/Menu.s
+
+# target to generate assembly for a file
+core/utils/src/Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/core/utils/src/Menu.cpp.s
+.PHONY : core/utils/src/Menu.cpp.s
+
+coursework_core_autogen/mocs_compilation.o: coursework_core_autogen/mocs_compilation.cpp.o
+.PHONY : coursework_core_autogen/mocs_compilation.o
+
+# target to build an object file
+coursework_core_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/coursework_core_autogen/mocs_compilation.cpp.o
+.PHONY : coursework_core_autogen/mocs_compilation.cpp.o
+
+coursework_core_autogen/mocs_compilation.i: coursework_core_autogen/mocs_compilation.cpp.i
+.PHONY : coursework_core_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+coursework_core_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/coursework_core_autogen/mocs_compilation.cpp.i
+.PHONY : coursework_core_autogen/mocs_compilation.cpp.i
+
+coursework_core_autogen/mocs_compilation.s: coursework_core_autogen/mocs_compilation.cpp.s
+.PHONY : coursework_core_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+coursework_core_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework_core.dir/build.make CMakeFiles/coursework_core.dir/coursework_core_autogen/mocs_compilation.cpp.s
+.PHONY : coursework_core_autogen/mocs_compilation.cpp.s
+
+gui/DashboardWindow.o: gui/DashboardWindow.cpp.o
+.PHONY : gui/DashboardWindow.o
+
+# target to build an object file
+gui/DashboardWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI.dir/build.make CMakeFiles/CourseworkGUI.dir/gui/DashboardWindow.cpp.o
+.PHONY : gui/DashboardWindow.cpp.o
+
+gui/DashboardWindow.i: gui/DashboardWindow.cpp.i
+.PHONY : gui/DashboardWindow.i
+
+# target to preprocess a source file
+gui/DashboardWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI.dir/build.make CMakeFiles/CourseworkGUI.dir/gui/DashboardWindow.cpp.i
+.PHONY : gui/DashboardWindow.cpp.i
+
+gui/DashboardWindow.s: gui/DashboardWindow.cpp.s
+.PHONY : gui/DashboardWindow.s
+
+# target to generate assembly for a file
+gui/DashboardWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI.dir/build.make CMakeFiles/CourseworkGUI.dir/gui/DashboardWindow.cpp.s
+.PHONY : gui/DashboardWindow.cpp.s
+
+gui/HistoryChartWidget.o: gui/HistoryChartWidget.cpp.o
+.PHONY : gui/HistoryChartWidget.o
+
+# target to build an object file
+gui/HistoryChartWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI.dir/build.make CMakeFiles/CourseworkGUI.dir/gui/HistoryChartWidget.cpp.o
+.PHONY : gui/HistoryChartWidget.cpp.o
+
+gui/HistoryChartWidget.i: gui/HistoryChartWidget.cpp.i
+.PHONY : gui/HistoryChartWidget.i
+
+# target to preprocess a source file
+gui/HistoryChartWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI.dir/build.make CMakeFiles/CourseworkGUI.dir/gui/HistoryChartWidget.cpp.i
+.PHONY : gui/HistoryChartWidget.cpp.i
+
+gui/HistoryChartWidget.s: gui/HistoryChartWidget.cpp.s
+.PHONY : gui/HistoryChartWidget.s
+
+# target to generate assembly for a file
+gui/HistoryChartWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI.dir/build.make CMakeFiles/CourseworkGUI.dir/gui/HistoryChartWidget.cpp.s
+.PHONY : gui/HistoryChartWidget.cpp.s
+
+gui/LoginWindow.o: gui/LoginWindow.cpp.o
+.PHONY : gui/LoginWindow.o
+
+# target to build an object file
+gui/LoginWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI.dir/build.make CMakeFiles/CourseworkGUI.dir/gui/LoginWindow.cpp.o
+.PHONY : gui/LoginWindow.cpp.o
+
+gui/LoginWindow.i: gui/LoginWindow.cpp.i
+.PHONY : gui/LoginWindow.i
+
+# target to preprocess a source file
+gui/LoginWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI.dir/build.make CMakeFiles/CourseworkGUI.dir/gui/LoginWindow.cpp.i
+.PHONY : gui/LoginWindow.cpp.i
+
+gui/LoginWindow.s: gui/LoginWindow.cpp.s
+.PHONY : gui/LoginWindow.s
+
+# target to generate assembly for a file
+gui/LoginWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI.dir/build.make CMakeFiles/CourseworkGUI.dir/gui/LoginWindow.cpp.s
+.PHONY : gui/LoginWindow.cpp.s
+
+gui/RegistrationDialog.o: gui/RegistrationDialog.cpp.o
+.PHONY : gui/RegistrationDialog.o
+
+# target to build an object file
+gui/RegistrationDialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI.dir/build.make CMakeFiles/CourseworkGUI.dir/gui/RegistrationDialog.cpp.o
+.PHONY : gui/RegistrationDialog.cpp.o
+
+gui/RegistrationDialog.i: gui/RegistrationDialog.cpp.i
+.PHONY : gui/RegistrationDialog.i
+
+# target to preprocess a source file
+gui/RegistrationDialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI.dir/build.make CMakeFiles/CourseworkGUI.dir/gui/RegistrationDialog.cpp.i
+.PHONY : gui/RegistrationDialog.cpp.i
+
+gui/RegistrationDialog.s: gui/RegistrationDialog.cpp.s
+.PHONY : gui/RegistrationDialog.s
+
+# target to generate assembly for a file
+gui/RegistrationDialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI.dir/build.make CMakeFiles/CourseworkGUI.dir/gui/RegistrationDialog.cpp.s
+.PHONY : gui/RegistrationDialog.cpp.s
+
+gui/gui_main.o: gui/gui_main.cpp.o
+.PHONY : gui/gui_main.o
+
+# target to build an object file
+gui/gui_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI.dir/build.make CMakeFiles/CourseworkGUI.dir/gui/gui_main.cpp.o
+.PHONY : gui/gui_main.cpp.o
+
+gui/gui_main.i: gui/gui_main.cpp.i
+.PHONY : gui/gui_main.i
+
+# target to preprocess a source file
+gui/gui_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI.dir/build.make CMakeFiles/CourseworkGUI.dir/gui/gui_main.cpp.i
+.PHONY : gui/gui_main.cpp.i
+
+gui/gui_main.s: gui/gui_main.cpp.s
+.PHONY : gui/gui_main.s
+
+# target to generate assembly for a file
+gui/gui_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CourseworkGUI.dir/build.make CMakeFiles/CourseworkGUI.dir/gui/gui_main.cpp.s
+.PHONY : gui/gui_main.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -497,52 +793,84 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... CourseworkGUI_autogen"
+	@echo "... CourseworkGUI_autogen_timestamp_deps"
+	@echo "... Coursework_autogen"
+	@echo "... Coursework_autogen_timestamp_deps"
+	@echo "... coursework_core_autogen"
+	@echo "... coursework_core_autogen_timestamp_deps"
 	@echo "... Coursework"
-	@echo "... exceptions/src/InputValidator.o"
-	@echo "... exceptions/src/InputValidator.i"
-	@echo "... exceptions/src/InputValidator.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... models/src/user/BodyMeasurement.o"
-	@echo "... models/src/user/BodyMeasurement.i"
-	@echo "... models/src/user/BodyMeasurement.s"
-	@echo "... models/src/user/Person.o"
-	@echo "... models/src/user/Person.i"
-	@echo "... models/src/user/Person.s"
-	@echo "... models/src/user/User.o"
-	@echo "... models/src/user/User.i"
-	@echo "... models/src/user/User.s"
-	@echo "... models/src/workout/CardioTraining.o"
-	@echo "... models/src/workout/CardioTraining.i"
-	@echo "... models/src/workout/CardioTraining.s"
-	@echo "... models/src/workout/Exercise.o"
-	@echo "... models/src/workout/Exercise.i"
-	@echo "... models/src/workout/Exercise.s"
-	@echo "... models/src/workout/LowerBodyWorkout.o"
-	@echo "... models/src/workout/LowerBodyWorkout.i"
-	@echo "... models/src/workout/LowerBodyWorkout.s"
-	@echo "... models/src/workout/StrengthTraining.o"
-	@echo "... models/src/workout/StrengthTraining.i"
-	@echo "... models/src/workout/StrengthTraining.s"
-	@echo "... models/src/workout/UpperBodyWorkout.o"
-	@echo "... models/src/workout/UpperBodyWorkout.i"
-	@echo "... models/src/workout/UpperBodyWorkout.s"
-	@echo "... services/src/BMICalculator.o"
-	@echo "... services/src/BMICalculator.i"
-	@echo "... services/src/BMICalculator.s"
-	@echo "... services/src/UndoManager.o"
-	@echo "... services/src/UndoManager.i"
-	@echo "... services/src/UndoManager.s"
-	@echo "... services/src/UserService.o"
-	@echo "... services/src/UserService.i"
-	@echo "... services/src/UserService.s"
-	@echo "... services/src/WorkoutService.o"
-	@echo "... services/src/WorkoutService.i"
-	@echo "... services/src/WorkoutService.s"
-	@echo "... utils/src/Menu.o"
-	@echo "... utils/src/Menu.i"
-	@echo "... utils/src/Menu.s"
+	@echo "... CourseworkGUI"
+	@echo "... coursework_core"
+	@echo "... CourseworkGUI_autogen/mocs_compilation.o"
+	@echo "... CourseworkGUI_autogen/mocs_compilation.i"
+	@echo "... CourseworkGUI_autogen/mocs_compilation.s"
+	@echo "... Coursework_autogen/mocs_compilation.o"
+	@echo "... Coursework_autogen/mocs_compilation.i"
+	@echo "... Coursework_autogen/mocs_compilation.s"
+	@echo "... core/exceptions/src/InputValidator.o"
+	@echo "... core/exceptions/src/InputValidator.i"
+	@echo "... core/exceptions/src/InputValidator.s"
+	@echo "... core/models/src/user/BodyMeasurement.o"
+	@echo "... core/models/src/user/BodyMeasurement.i"
+	@echo "... core/models/src/user/BodyMeasurement.s"
+	@echo "... core/models/src/user/Person.o"
+	@echo "... core/models/src/user/Person.i"
+	@echo "... core/models/src/user/Person.s"
+	@echo "... core/models/src/user/User.o"
+	@echo "... core/models/src/user/User.i"
+	@echo "... core/models/src/user/User.s"
+	@echo "... core/models/src/workout/CardioTraining.o"
+	@echo "... core/models/src/workout/CardioTraining.i"
+	@echo "... core/models/src/workout/CardioTraining.s"
+	@echo "... core/models/src/workout/Exercise.o"
+	@echo "... core/models/src/workout/Exercise.i"
+	@echo "... core/models/src/workout/Exercise.s"
+	@echo "... core/models/src/workout/LowerBodyWorkout.o"
+	@echo "... core/models/src/workout/LowerBodyWorkout.i"
+	@echo "... core/models/src/workout/LowerBodyWorkout.s"
+	@echo "... core/models/src/workout/StrengthTraining.o"
+	@echo "... core/models/src/workout/StrengthTraining.i"
+	@echo "... core/models/src/workout/StrengthTraining.s"
+	@echo "... core/models/src/workout/UpperBodyWorkout.o"
+	@echo "... core/models/src/workout/UpperBodyWorkout.i"
+	@echo "... core/models/src/workout/UpperBodyWorkout.s"
+	@echo "... core/services/src/BMICalculator.o"
+	@echo "... core/services/src/BMICalculator.i"
+	@echo "... core/services/src/BMICalculator.s"
+	@echo "... core/services/src/UndoManager.o"
+	@echo "... core/services/src/UndoManager.i"
+	@echo "... core/services/src/UndoManager.s"
+	@echo "... core/services/src/UserService.o"
+	@echo "... core/services/src/UserService.i"
+	@echo "... core/services/src/UserService.s"
+	@echo "... core/services/src/WorkoutService.o"
+	@echo "... core/services/src/WorkoutService.i"
+	@echo "... core/services/src/WorkoutService.s"
+	@echo "... core/utils/src/Menu.o"
+	@echo "... core/utils/src/Menu.i"
+	@echo "... core/utils/src/Menu.s"
+	@echo "... coursework_core_autogen/mocs_compilation.o"
+	@echo "... coursework_core_autogen/mocs_compilation.i"
+	@echo "... coursework_core_autogen/mocs_compilation.s"
+	@echo "... gui/DashboardWindow.o"
+	@echo "... gui/DashboardWindow.i"
+	@echo "... gui/DashboardWindow.s"
+	@echo "... gui/HistoryChartWidget.o"
+	@echo "... gui/HistoryChartWidget.i"
+	@echo "... gui/HistoryChartWidget.s"
+	@echo "... gui/LoginWindow.o"
+	@echo "... gui/LoginWindow.i"
+	@echo "... gui/LoginWindow.s"
+	@echo "... gui/RegistrationDialog.o"
+	@echo "... gui/RegistrationDialog.i"
+	@echo "... gui/RegistrationDialog.s"
+	@echo "... gui/gui_main.o"
+	@echo "... gui/gui_main.i"
+	@echo "... gui/gui_main.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

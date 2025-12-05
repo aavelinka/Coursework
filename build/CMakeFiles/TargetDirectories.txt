@@ -1,3 +1,11 @@
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles/coursework_core.dir
 /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles/Coursework.dir
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles/CourseworkGUI.dir
 /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles/edit_cache.dir
 /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles/rebuild_cache.dir
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles/coursework_core_autogen_timestamp_deps.dir
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles/coursework_core_autogen.dir
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles/Coursework_autogen_timestamp_deps.dir
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles/Coursework_autogen.dir
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles/CourseworkGUI_autogen_timestamp_deps.dir
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles/CourseworkGUI_autogen.dir

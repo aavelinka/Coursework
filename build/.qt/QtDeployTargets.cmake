@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_coursework_core_FILE /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/libcoursework_core.a)
+set(__QT_DEPLOY_TARGET_coursework_core_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_Coursework_FILE /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/bin/Coursework)
+set(__QT_DEPLOY_TARGET_Coursework_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_CourseworkGUI_FILE /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/bin/CourseworkGUI)
+set(__QT_DEPLOY_TARGET_CourseworkGUI_TYPE EXECUTABLE)
