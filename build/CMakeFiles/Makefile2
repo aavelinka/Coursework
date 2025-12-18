@@ -128,8 +128,8 @@ CMakeFiles/coursework_core.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/Coursework.dir/all: CMakeFiles/coursework_core.dir/all
-CMakeFiles/Coursework.dir/all: CMakeFiles/Coursework_autogen.dir/all
 CMakeFiles/Coursework.dir/all: CMakeFiles/Coursework_autogen_timestamp_deps.dir/all
+CMakeFiles/Coursework.dir/all: CMakeFiles/Coursework_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coursework.dir/build.make CMakeFiles/Coursework.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/CMakeFiles --progress-num=1,2,3,4 "Built target Coursework"

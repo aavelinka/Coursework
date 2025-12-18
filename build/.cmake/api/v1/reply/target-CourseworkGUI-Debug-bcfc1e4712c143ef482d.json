@@ -41,13 +41,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 96,
+				"line" : 99,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 105,
+				"line" : 108,
 				"parent" : 0
 			},
 			{
@@ -237,6 +237,10 @@
 				{
 					"backtrace" : 25,
 					"path" : "/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/utils/include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/conteiner"
 				},
 				{
 					"backtrace" : 25,

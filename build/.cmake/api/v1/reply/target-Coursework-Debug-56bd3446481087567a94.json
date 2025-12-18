@@ -26,13 +26,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 89,
+				"line" : 92,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 90,
+				"line" : 93,
 				"parent" : 0
 			},
 			{
@@ -76,6 +76,10 @@
 				},
 				{
 					"backtrace" : 3,
+					"path" : "/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/conteiner"
+				},
+				{
+					"backtrace" : 3,
 					"path" : "/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include"
 				},
 				{
@@ -106,11 +110,11 @@
 			"id" : "coursework_core::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 0,
-			"id" : "Coursework_autogen::@6890427a1f51a3e7e1df"
+			"id" : "Coursework_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "Coursework_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "Coursework_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Coursework::@6890427a1f51a3e7e1df",

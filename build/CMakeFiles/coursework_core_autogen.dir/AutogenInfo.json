@@ -367,6 +367,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/conteiner/Deque.hpp",
+			"MU",
+			"MG5USMIYIU/moc_Deque.cpp",
+			null
+		],
+		[
 			"/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/Exception.h",
 			"MU",
 			"KVBUAMK3XL/moc_Exception.cpp",
@@ -498,6 +504,7 @@
 		"/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include",
 		"/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include",
 		"/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/utils/include",
+		"/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/conteiner",
 		"/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include",
 		"/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include",
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1",

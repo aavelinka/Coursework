@@ -14,6 +14,7 @@ include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/core/models/include
     ${CMAKE_CURRENT_SOURCE_DIR}/core/exceptions/include
     ${CMAKE_CURRENT_SOURCE_DIR}/core/utils/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/core/conteiner
     ${CMAKE_CURRENT_SOURCE_DIR}/core/repositories/include 
     ${CMAKE_CURRENT_SOURCE_DIR}/core/services/include
 )
@@ -35,6 +36,8 @@ set(MODEL_SOURCES
     core/models/src/workout/StrengthTraining.cpp        
     core/models/src/workout/UpperBodyWorkout.cpp
     core/models/src/workout/LowerBodyWorkout.cpp
+    core/conteiner/Deque.hpp
+    core/conteiner/Deque.tpp
 )
 
 set(EXCEPTION_SOURCES

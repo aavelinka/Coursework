@@ -5,6 +5,7 @@ coursework_core_autogen/timestamp: /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kur
   CMakeFiles/4.1.1/CMakeCCompiler.cmake \
   CMakeFiles/4.1.1/CMakeCXXCompiler.cmake \
   CMakeFiles/4.1.1/CMakeSystem.cmake \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/conteiner/Deque.hpp \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/Exception.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/FileException.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/InputException.h \
@@ -12088,6 +12089,8 @@ coursework_core_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_specialization.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_signed.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/once_flag.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_reference_wrapper.h:
@@ -12135,6 +12138,8 @@ coursework_core_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_core_convertible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_convertible.h:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/conteiner/Deque.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_const.h:
 
@@ -12227,8 +12232,6 @@ coursework_core_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/support.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/system_error.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_empty.h:
 
@@ -12566,8 +12569,6 @@ coursework_core_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/abi.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_signed.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator_traits.h:
@@ -12831,6 +12832,8 @@ coursework_core_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/nth_element.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/none_of.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove.h:
 
@@ -13754,8 +13757,6 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /opt/homebrew/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/none_of.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/half_positive.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h:
@@ -13793,6 +13794,8 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 CMakeFiles/4.1.1/CMakeCCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/system_error.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h:
 
@@ -13964,10 +13967,6 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/src/user/BodyMeasurement.cpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h:
-
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/workout/CardioTraining.h:
-
 /opt/homebrew/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-release.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_standard_layout.h:
@@ -13975,6 +13974,10 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 /opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake:
 
 /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/workout/LowerBodyWorkout.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/workout/CardioTraining.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h:
 
