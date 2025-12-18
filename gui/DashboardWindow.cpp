@@ -14,6 +14,7 @@
 #include <QScrollArea>
 #include <QInputDialog>
 #include <QTextOption>
+#include <QShortcut>
 #include <sstream>
 #include <iomanip>
 #include "InputException.h"
@@ -33,12 +34,15 @@ DashboardWindow::DashboardWindow(UserService* userService,
     buildUi();
     applyBranding();
     refreshUserSummary();
+    updateUndoAvailability();
 }
 
 void DashboardWindow::setUser(std::unique_ptr<User> newUser)
 {
+    undoManager.clear();
     user = std::move(newUser);
     refreshUserSummary();
+    updateUndoAvailability();
 }
 
 void DashboardWindow::buildUi()
@@ -186,11 +190,16 @@ void DashboardWindow::buildUi()
     addManualBtn->setObjectName("ghostButton");
     addManualBtn->setIcon(style()->standardIcon(QStyle::SP_FileDialogNewFolder));
     connect(addManualBtn, &QPushButton::clicked, this, [this]() {
+        QString previousText = workoutsHistory->toPlainText();
         bool ok = false;
         QString text = QInputDialog::getMultiLineText(this, "Добавить тренировку", "Описание", "", &ok);
         if (ok && !text.trimmed().isEmpty())
         {
             workoutsHistory->append("• " + text.trimmed());
+            undoManager.addAction([this, previousText]() {
+                workoutsHistory->setPlainText(previousText);
+            });
+            updateUndoAvailability();
         }
     });
 
@@ -211,14 +220,28 @@ void DashboardWindow::buildUi()
     logoutBtn->setFixedWidth(120);
     connect(logoutBtn, &QPushButton::clicked, this, &DashboardWindow::logout);
 
+    undoButton = new QPushButton("Отменить действие", this);
+    undoButton->setObjectName("ghostButton");
+    undoButton->setIcon(style()->standardIcon(QStyle::SP_ArrowBack));
+    undoButton->setEnabled(false);
+    connect(undoButton, &QPushButton::clicked, this, &DashboardWindow::undoLastAction);
+
     root->addWidget(titleLabel);
     root->addWidget(latestMeasurementLabel);
     root->addWidget(tabs);
     root->addStretch();
-    root->addWidget(logoutBtn, 0, Qt::AlignRight);
+    QHBoxLayout* bottomActions = new QHBoxLayout();
+    bottomActions->setSpacing(10);
+    bottomActions->addWidget(undoButton);
+    bottomActions->addStretch();
+    bottomActions->addWidget(logoutBtn);
+    root->addLayout(bottomActions);
 
     setCentralWidget(central);
     setMinimumSize(900, 600);
+
+    QShortcut* undoShortcut = new QShortcut(QKeySequence::Undo, this);
+    connect(undoShortcut, &QShortcut::activated, this, &DashboardWindow::undoLastAction);
 }
 
 void DashboardWindow::applyBranding()
@@ -322,6 +345,7 @@ void DashboardWindow::refreshUserSummary()
 
     updateBmiInfo(latest);
     refreshHistory();
+    refreshPlanView();
 }
 
 Measurement DashboardWindow::readMeasurementInputs() const
@@ -346,8 +370,33 @@ void DashboardWindow::saveMeasurement()
     }
     try
     {
+        std::vector<Measurement> beforeSave = loadMeasurements();
         Measurement m = readMeasurementInputs();
         userService->saveMeasurement(user.get(), m);
+        undoManager.addAction([this, beforeSave]() {
+            if (!user)
+            {
+                return;
+            }
+            std::string path = "measurements_" + std::to_string(user->getId()) + ".txt";
+            TextFile<Measurement> file(path);
+            file.clearFile();
+            for (const auto& record : beforeSave)
+            {
+                file.saveRecord(record);
+            }
+            if (!beforeSave.empty())
+            {
+                user->getMeasurements().setCurrentMeasurement(beforeSave.back());
+            }
+            else
+            {
+                Measurement empty{};
+                empty.date = {0, 0, 0};
+                user->getMeasurements().setCurrentMeasurement(empty);
+            }
+        });
+        updateUndoAvailability();
         QMessageBox::information(this, "Сохранено", "Измерения сохранены.");
         refreshUserSummary();
         refreshHistory();
@@ -366,32 +415,19 @@ void DashboardWindow::generatePlan()
     }
     try
     {
+        WorkoutPlan previousPlan = workoutService->loadUserWorkout(user->getId());
         Measurement m = readMeasurementInputs();
         double bmi = BMICalculator::calculateBMI(m.weight, m.height);
         std::string fitness = BMICalculator::getFitnessLevel(bmi, user->getGoal());
         WorkoutPlan plan = workoutService->generatePlan(user.get(), bmi, fitness, m);
+        workoutService->saveUserWorkout(user->getId(), plan);
 
-        std::stringstream ss;
-        ss << "Кардио:\n";
-        for (const CardioTraining* c : plan.cardio)
-        {
-            ss << " • " << c->getExerciseName() << " — " << c->getDuration() << " минут\n";
-        }
-        ss << "\nВерх:\n";
-        for (const UpperBodyWorkout* u : plan.upperBody)
-        {
-            ss << " • " << u->getExerciseName() << " (" << u->getUpperBodyPart() << "), "
-               << u->getSets() << "x" << u->getReps() << "\n";
-        }
-        ss << "\nНиз:\n";
-        for (const LowerBodyWorkout* l : plan.lowerBody)
-        {
-            ss << " • " << l->getExerciseName() << " (" << l->getLowerBodyPart() << "), "
-               << l->getSets() << "x" << l->getReps() << "\n";
-        }
-
-        planView->setPlainText(QString::fromStdString(ss.str()));
+        planView->setPlainText(formatPlan(plan));
         workoutsHistory->append("Автоплан создан");
+        undoManager.addAction([this, previousPlan]() {
+            workoutService->saveUserWorkout(user->getId(), previousPlan);
+        });
+        updateUndoAvailability();
     }
     catch (const InputException& ex)
     {
@@ -401,6 +437,25 @@ void DashboardWindow::generatePlan()
     {
         QMessageBox::warning(this, "Ошибка", ex.what());
     }
+}
+
+void DashboardWindow::undoLastAction()
+{
+    if (!user)
+    {
+        return;
+    }
+
+    if (undoManager.undo())
+    {
+        refreshUserSummary();
+        QMessageBox::information(this, "Отмена", "Последнее действие отменено.");
+    }
+    else
+    {
+        QMessageBox::information(this, "Отмена", "Нет действий для отмены.");
+    }
+    updateUndoAvailability();
 }
 
 void DashboardWindow::logout()
@@ -432,6 +487,84 @@ std::vector<Measurement> DashboardWindow::loadMeasurements() const
 void DashboardWindow::refreshHistory()
 {
     chart->setMeasurements(loadMeasurements());
+}
+
+void DashboardWindow::refreshPlanView()
+{
+    if (!planView)
+    {
+        return;
+    }
+    if (!user)
+    {
+        planView->clear();
+        return;
+    }
+
+    WorkoutPlan plan = workoutService->loadUserWorkout(user->getId());
+    if (plan.cardio.empty() && plan.upperBody.empty() && plan.lowerBody.empty())
+    {
+        planView->setPlainText("План тренировок отсутствует.");
+    }
+    else
+    {
+        planView->setPlainText(formatPlan(plan));
+    }
+}
+
+QString DashboardWindow::formatPlan(const WorkoutPlan& plan) const
+{
+    std::stringstream ss;
+    ss << "Кардио:\n";
+    if (plan.cardio.empty())
+    {
+        ss << " • нет упражнений\n";
+    }
+    else
+    {
+        for (const CardioTraining* c : plan.cardio)
+        {
+            ss << " • " << c->getExerciseName() << " — " << c->getDuration() << " минут\n";
+        }
+    }
+
+    ss << "\nВерх:\n";
+    if (plan.upperBody.empty())
+    {
+        ss << " • нет упражнений\n";
+    }
+    else
+    {
+        for (const UpperBodyWorkout* u : plan.upperBody)
+        {
+            ss << " • " << u->getExerciseName() << " (" << u->getUpperBodyPart() << "), "
+               << u->getSets() << "x" << u->getReps() << "\n";
+        }
+    }
+
+    ss << "\nНиз:\n";
+    if (plan.lowerBody.empty())
+    {
+        ss << " • нет упражнений\n";
+    }
+    else
+    {
+        for (const LowerBodyWorkout* l : plan.lowerBody)
+        {
+            ss << " • " << l->getExerciseName() << " (" << l->getLowerBodyPart() << "), "
+               << l->getSets() << "x" << l->getReps() << "\n";
+        }
+    }
+
+    return QString::fromStdString(ss.str());
+}
+
+void DashboardWindow::updateUndoAvailability()
+{
+    if (undoButton)
+    {
+        undoButton->setEnabled(undoManager.canUndo());
+    }
 }
 
 void DashboardWindow::updateBmiInfo(const Measurement& latest)

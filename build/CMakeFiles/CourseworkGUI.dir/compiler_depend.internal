@@ -818,6 +818,7 @@
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/File.h
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.h
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.tpp
+ /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UndoManager.h
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UserService.h
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/WorkoutService.h
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/DashboardWindow.cpp
@@ -2153,6 +2154,7 @@ CMakeFiles/CourseworkGUI.dir/CourseworkGUI_autogen/mocs_compilation.cpp.o
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/File.h
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.h
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.tpp
+ /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UndoManager.h
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UserService.h
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/WorkoutService.h
  /opt/homebrew/lib/QtCore.framework/Headers/q17memory.h
@@ -3217,6 +3219,7 @@ CMakeFiles/CourseworkGUI.dir/gui/DashboardWindow.cpp.o
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.h
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.tpp
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/BMICalculator.h
+ /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UndoManager.h
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UserService.h
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/WorkoutService.h
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/DashboardWindow.h
@@ -3353,6 +3356,7 @@ CMakeFiles/CourseworkGUI.dir/gui/DashboardWindow.cpp.o
  /opt/homebrew/lib/QtCore.framework/Headers/qxptype_traits.h
  /opt/homebrew/lib/QtCore.framework/Headers/qyieldcpu.h
  /opt/homebrew/lib/QtGui.framework/Headers/QPalette
+ /opt/homebrew/lib/QtGui.framework/Headers/QShortcut
  /opt/homebrew/lib/QtGui.framework/Headers/QTextOption
  /opt/homebrew/lib/QtGui.framework/Headers/qaction.h
  /opt/homebrew/lib/QtGui.framework/Headers/qbitmap.h
@@ -3376,6 +3380,7 @@ CMakeFiles/CourseworkGUI.dir/gui/DashboardWindow.cpp.o
  /opt/homebrew/lib/QtGui.framework/Headers/qregion.h
  /opt/homebrew/lib/QtGui.framework/Headers/qrgb.h
  /opt/homebrew/lib/QtGui.framework/Headers/qrgba64.h
+ /opt/homebrew/lib/QtGui.framework/Headers/qshortcut.h
  /opt/homebrew/lib/QtGui.framework/Headers/qtextcursor.h
  /opt/homebrew/lib/QtGui.framework/Headers/qtextdocument.h
  /opt/homebrew/lib/QtGui.framework/Headers/qtextformat.h
@@ -5345,6 +5350,7 @@ CMakeFiles/CourseworkGUI.dir/gui/LoginWindow.cpp.o
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/File.h
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.h
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.tpp
+ /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UndoManager.h
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UserService.h
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/WorkoutService.h
  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/DashboardWindow.h

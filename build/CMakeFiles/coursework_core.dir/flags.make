@@ -6,5 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/build/coursework_core_autogen/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/utils/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include -I/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include
 
-CXX_FLAGS = -g -std=gnu++17
+CXX_FLAGSarm64 = -g -std=gnu++17 -arch arm64
+
+CXX_FLAGS = -g -std=gnu++17 -arch arm64
 

@@ -817,6 +817,7 @@ CourseworkGUI_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/File.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.tpp \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UndoManager.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UserService.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/WorkoutService.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/DashboardWindow.cpp \
@@ -1709,6 +1710,8 @@ CourseworkGUI_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX
 /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/DashboardWindow.h:
 
 /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/DashboardWindow.cpp:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UndoManager.h:
 
 /opt/homebrew/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake:
 

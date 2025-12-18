@@ -1,1 +1,1 @@
-/usr/bin/clang++ -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Coursework.dir/Coursework_autogen/mocs_compilation.cpp.o CMakeFiles/Coursework.dir/src/main.cpp.o -o bin/Coursework  libcoursework_core.a
+/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Coursework.dir/Coursework_autogen/mocs_compilation.cpp.o CMakeFiles/Coursework.dir/src/main.cpp.o -o bin/Coursework  libcoursework_core.a

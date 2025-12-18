@@ -180,7 +180,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++17"
+					"fragment" : "-g -std=gnu++17 -arch arm64"
 				}
 			],
 			"defines" : 

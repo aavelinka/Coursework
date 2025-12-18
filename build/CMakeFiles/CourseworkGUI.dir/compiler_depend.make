@@ -817,6 +817,7 @@ CourseworkGUI_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/File.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.tpp \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UndoManager.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UserService.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/WorkoutService.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/DashboardWindow.cpp \
@@ -2151,6 +2152,7 @@ CMakeFiles/CourseworkGUI.dir/CourseworkGUI_autogen/mocs_compilation.cpp.o: Cours
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/File.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.tpp \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UndoManager.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UserService.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/WorkoutService.h \
   /opt/homebrew/lib/QtCore.framework/Headers/q17memory.h \
@@ -3214,6 +3216,7 @@ CMakeFiles/CourseworkGUI.dir/gui/DashboardWindow.cpp.o: /Users/avelinaklimova/De
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.tpp \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/BMICalculator.h \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UndoManager.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UserService.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/WorkoutService.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/DashboardWindow.h \
@@ -3350,6 +3353,7 @@ CMakeFiles/CourseworkGUI.dir/gui/DashboardWindow.cpp.o: /Users/avelinaklimova/De
   /opt/homebrew/lib/QtCore.framework/Headers/qxptype_traits.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qyieldcpu.h \
   /opt/homebrew/lib/QtGui.framework/Headers/QPalette \
+  /opt/homebrew/lib/QtGui.framework/Headers/QShortcut \
   /opt/homebrew/lib/QtGui.framework/Headers/QTextOption \
   /opt/homebrew/lib/QtGui.framework/Headers/qaction.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qbitmap.h \
@@ -3373,6 +3377,7 @@ CMakeFiles/CourseworkGUI.dir/gui/DashboardWindow.cpp.o: /Users/avelinaklimova/De
   /opt/homebrew/lib/QtGui.framework/Headers/qregion.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qrgb.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qrgba64.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qshortcut.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qtextcursor.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qtextdocument.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qtextformat.h \
@@ -5340,6 +5345,7 @@ CMakeFiles/CourseworkGUI.dir/gui/LoginWindow.cpp.o: /Users/avelinaklimova/Deskto
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/File.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.tpp \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UndoManager.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UserService.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/WorkoutService.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/DashboardWindow.h \
@@ -7770,11 +7776,15 @@ CMakeFiles/CourseworkGUI.dir/gui/gui_main.cpp.o: /Users/avelinaklimova/Desktop/U
 
 /opt/homebrew/lib/QtGui.framework/Headers/qtextdocument.h:
 
+/opt/homebrew/lib/QtGui.framework/Headers/qshortcut.h:
+
 /opt/homebrew/lib/QtGui.framework/Headers/qpen.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qframe.h:
 
 /opt/homebrew/lib/QtGui.framework/Headers/QTextOption:
+
+/opt/homebrew/lib/QtGui.framework/Headers/QShortcut:
 
 /opt/homebrew/lib/QtGui.framework/Headers/QPalette:
 
@@ -8657,6 +8667,10 @@ CourseworkGUI_autogen/DMHXEJ42XS/moc_HistoryChartWidget.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/inverse_trigonometric_functions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/hypot.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/hyperbolic_functions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/gamma.h:
 
@@ -9993,6 +10007,12 @@ CourseworkGUI_autogen/DMHXEJ42XS/moc_DashboardWindow.cpp:
 /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/DashboardWindow.h:
 
 /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/DashboardWindow.cpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/once_flag.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__iterator/erase_if_container.h:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UndoManager.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h:
 
@@ -11844,10 +11864,6 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/hyperbolic_functions.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/is_sorted_until.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__concepts/arithmetic.h:
@@ -12113,10 +12129,6 @@ CourseworkGUI_autogen/DMHXEJ42XS/moc_LoginWindow.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/once_flag.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__iterator/erase_if_container.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/log2.h:
 

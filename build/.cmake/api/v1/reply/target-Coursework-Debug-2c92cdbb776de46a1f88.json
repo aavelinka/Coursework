@@ -49,7 +49,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++17"
+					"fragment" : "-g -std=gnu++17 -arch arm64"
 				}
 			],
 			"includes" : 
@@ -106,11 +106,11 @@
 			"id" : "coursework_core::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "Coursework_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "Coursework_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Coursework_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Coursework::@6890427a1f51a3e7e1df",
