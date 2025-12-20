@@ -397,43 +397,9 @@ CourseworkGUI_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__ostream/put_character_sequence.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/binomial_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/cauchy_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/clamp_to_integral.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/default_random_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/discard_block_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/discrete_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/exponential_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/extreme_value_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/fisher_f_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/gamma_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/generate_canonical.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/geometric_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/independent_bits_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/is_seed_sequence.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/is_valid.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/knuth_b.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/linear_congruential_engine.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/log2.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/lognormal_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/mersenne_twister_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/negative_binomial_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/normal_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/piecewise_constant_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/piecewise_linear_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/poisson_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/random_device.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/ranlux.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/seed_seq.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/shuffle_order_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/subtract_with_carry_engine.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__ranges/access.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__ranges/concepts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__ranges/container_compatible_range.h \
@@ -674,7 +640,6 @@ CourseworkGUI_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/queue \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/random \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/ratio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/regex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/set \
@@ -802,6 +767,8 @@ CourseworkGUI_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX
   CMakeFiles/4.1.1/CMakeCXXCompiler.cmake \
   CMakeFiles/4.1.1/CMakeSystem.cmake \
   CourseworkGUI_autogen/moc_predefs.h \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/conteiner/Deque.hpp \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/conteiner/Deque.tpp \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/Exception.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/FileException.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/InputException.h \
@@ -1563,7 +1530,13 @@ CourseworkGUI_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX
 
 /opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qtcoreglobal.h:
 
+/opt/homebrew/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake:
+
+/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qtcoreexports.h:
+
 /opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h:
+
+/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h:
 
 /opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qtclasshelpermacros.h:
 
@@ -1586,6 +1559,8 @@ CourseworkGUI_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX
 /opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qstdlibdetection.h:
 
 /opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qsize.h:
+
+/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qset.h:
 
 /opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qpoint.h:
 
@@ -1699,51 +1674,53 @@ CourseworkGUI_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX
 
 /opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/q20iterator.h:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/LoginWindow.h:
+/opt/homebrew/share/cmake/Modules/Compiler/Clang.cmake:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/LoginWindow.cpp:
+/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtGui.framework/Versions/A/Headers/qimage.h:
 
-/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtGui.framework/Versions/A/Headers/qcursor.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__numeric/reduce.h:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/HistoryChartWidget.h:
+/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/q20functional.h:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/DashboardWindow.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__filesystem/path_iterator.h:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/DashboardWindow.cpp:
+/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/q17memory.h:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UndoManager.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/sys/_types/_time_t.h:
 
-/opt/homebrew/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__ranges/subrange.h:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.tpp:
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/RegistrationDialog.h:
 
-/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-C.cmake:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__functional/operations.h:
 
-/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h:
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UserService.h:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/workout/UpperBodyWorkout.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/iterator:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/workout/StrengthTraining.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__ranges/size.h:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/workout/LowerBodyWorkout.h:
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/File.h:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/workout/CardioTraining.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__exception/nested_exception.h:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/user/User.h:
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/workout/Exercise.h:
 
 /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/user/Person.h:
 
-/opt/homebrew/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake:
+/opt/homebrew/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/user/BodyMeasurement.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/in_out_result.h:
 
-/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__cstddef/byte.h:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/WorkoutService.h:
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/InputValidator.h:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/InputException.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/ranges_copy.h:
 
-CourseworkGUI_autogen/moc_predefs.h:
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/Exception.h:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/conteiner/Deque.tpp:
 
 /opt/homebrew/lib/cmake/Qt6/QtPublicSbomHelpers.cmake:
 
@@ -1767,6 +1744,10 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_list.h:
 
+/opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/sys/types.h:
+
 /opt/homebrew/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
 
 /opt/homebrew/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake:
@@ -1774,8 +1755,6 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/sys/cdefs.h:
 
 /opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/seed_seq.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/rank.h:
 
@@ -1826,6 +1805,8 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/sys/_types/_fd_zero.h:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/conteiner/Deque.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/sys/_types/_fd_set.h:
 
@@ -1973,9 +1954,9 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/istream:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__concepts/predicate.h:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/remove_cvref.h:
 
@@ -1986,6 +1967,8 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 /opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qrect.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/iosfwd:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/forward_list:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/iterator_operations.h:
 
@@ -2006,6 +1989,8 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__math/special_functions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/cstddef:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/cstdarg:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/compare:
 
@@ -2079,8 +2064,6 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__atomic/kill_dependency.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/binomial_distribution.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__utility/empty.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/common_type.h:
@@ -2094,6 +2077,8 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/unwrap_ref.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/underlying_type.h:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/LoginWindow.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/remove_reference.h:
 
@@ -2143,6 +2128,12 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/nat.h:
 
+/opt/homebrew/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-release.cmake:
+
+/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/make_signed.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/lazy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/is_volatile.h:
@@ -2158,6 +2149,14 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/is_unsigned_integer.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/is_nothrow_destructible.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/sys/_types/_int32_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/gui_main.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/is_unsigned.h:
 
@@ -2186,6 +2185,10 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/is_signed.h:
+
+/opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/is_scalar.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/is_reference_wrapper.h:
 
@@ -2291,6 +2294,12 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/has_unique_object_representation.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/stack:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/algorithm:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/extent.h:
+
 /opt/homebrew/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-release.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__memory/allocator.h:
@@ -2365,17 +2374,7 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__tuple/tuple_element.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h:
-
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/gui_main.cpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/is_nothrow_destructible.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/sys/_types/_int32_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/pthread/qos.h:
 
@@ -2386,6 +2385,10 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 /opt/homebrew/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__thread/support/pthread.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__concepts/derived_from.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__thread/support.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h:
 
@@ -2417,12 +2420,6 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/is_function.h:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/File.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/iterator:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__ranges/size.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/sys/_endian.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/is_pod.h:
@@ -2436,6 +2433,10 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__atomic/atomic_lock_free.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/ratio:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__ranges/empty.h:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/workout/LowerBodyWorkout.h:
 
 /opt/homebrew/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake:
 
@@ -2453,99 +2454,15 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__ranges/concepts.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/student_t_distribution.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__concepts/derived_from.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__thread/support.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/rotate.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/random_device.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__ranges/empty.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/piecewise_linear_distribution.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/piecewise_constant_distribution.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/lognormal_distribution.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/log2.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__math/exponential_functions.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/linear_congruential_engine.h:
-
-/opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/sys/types.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/knuth_b.h:
 
 /opt/homebrew/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-release.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/is_constructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/is_valid.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/stack:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/algorithm:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/extent.h:
-
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/RegistrationDialog.cpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/generate.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/is_seed_sequence.h:
-
-/opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/is_scalar.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/gamma_distribution.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/forward_list:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__ranges/access.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__memory/unique_ptr.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/fisher_f_distribution.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/extreme_value_distribution.h:
-
-/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qset.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/exponential_distribution.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__atomic/atomic.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/discrete_distribution.h:
-
-/opt/homebrew/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-release.cmake:
-
-/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/make_signed.h:
-
-/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/discard_block_engine.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/find_end.h:
 
@@ -2559,11 +2476,9 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__atomic/support.h:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UserService.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__functional/operations.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__numeric/iota.h:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/user/User.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/string:
 
@@ -2572,6 +2487,8 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 /opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/LoginWindow.cpp:
 
 /opt/homebrew/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake:
 
@@ -2582,8 +2499,6 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__memory/align.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/random:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__memory/compressed_pair.h:
 
@@ -2609,8 +2524,6 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__new/launder.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__mutex/unique_lock.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_copy.h:
@@ -2624,6 +2537,12 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/is_union.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__mutex/mutex.h:
+
+/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-C.cmake:
+
+/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/workout/UpperBodyWorkout.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__configuration/compiler.h:
 
@@ -2688,14 +2607,6 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__mbstate_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__math/trigonometric_functions.h:
-
-/opt/homebrew/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake:
-
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/InputValidator.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/in_out_result.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__cstddef/byte.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__math/rounding_functions.h:
 
@@ -2769,15 +2680,13 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_arg.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__ranges/access.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__memory/unique_ptr.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__numeric/accumulate.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__filesystem/operations.h:
-
-/opt/homebrew/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake:
-
-/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qtcoreexports.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/shuffle_order_engine.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__iterator/size.h:
 
@@ -2801,6 +2710,8 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__iterator/readable_traits.h:
 
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/DashboardWindow.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__iterator/prev.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__iterator/iterator.h:
@@ -2819,7 +2730,11 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__iterator/unreachable_sentinel.h:
 
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/workout/StrengthTraining.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/invoke.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__mutex/tag_types.h:
 
@@ -2889,6 +2804,10 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__math/inverse_trigonometric_functions.h:
 
+/opt/homebrew/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/user/BodyMeasurement.h:
+
 /opt/homebrew/share/cmake/Modules/Platform/Darwin-Initialize.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__fwd/fstream.h:
@@ -2904,6 +2823,10 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__fwd/complex.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__functional/unary_function.h:
+
+/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtGui.framework/Versions/A/Headers/qcursor.h:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/HistoryChartWidget.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/sys/_types/_null.h:
 
@@ -2935,15 +2858,11 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__filesystem/u8path.h:
 
+CourseworkGUI_autogen/moc_predefs.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__functional/binder2nd.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__filesystem/space_info.h:
-
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/RegistrationDialog.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/sys/_types/_time_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__ranges/subrange.h:
 
 /opt/homebrew/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake:
 
@@ -2969,8 +2888,6 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/_bounds.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/default_random_engine.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/is_nothrow_constructible.h:
@@ -2991,15 +2908,13 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/atomic:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/workout/Exercise.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__exception/nested_exception.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/set_union.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__fwd/deque.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__exception/exception_ptr.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__iterator/empty.h:
 
@@ -3058,10 +2973,6 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__utility/forward.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__configuration/language.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/sys/_types/_blkcnt_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/clamp_to_integral.h:
 
 /opt/homebrew/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-release.cmake:
 
@@ -3139,6 +3050,10 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__concepts/convertible_to.h:
 
+/opt/homebrew/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.tpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/locale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__concepts/equality_comparable.h:
@@ -3181,21 +3096,9 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__compare/compare_three_way_result.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/mersenne_twister_engine.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__chrono/steady_clock.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/geometric_distribution.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/cstdarg:
-
-/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/ranlux.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__bit/popcount.h:
 
@@ -3239,8 +3142,6 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__mutex/once_flag.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/normal_distribution.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__atomic/atomic_init.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/stdexcept:
@@ -3281,8 +3182,6 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__iterator/move_iterator.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/subtract_with_carry_engine.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__bit/countr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/count.h:
@@ -3297,8 +3196,6 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__concepts/boolean_testable.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/generate_canonical.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__atomic/check_memory_order.h:
 
 /opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtGui.framework/Versions/A/Headers/qpixmap.h:
@@ -3308,6 +3205,8 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/iomanip:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/is_trivially_copyable.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__atomic/atomic.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/memory:
 
@@ -3335,6 +3234,10 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/unique.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/generate.h:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/RegistrationDialog.cpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/sys/_types/_in_port_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__chrono/file_clock.h:
@@ -3359,6 +3262,10 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__type_traits/is_fundamental.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/rotate.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
 
 /opt/homebrew/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
@@ -3370,8 +3277,6 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/_locale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/locale:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/poisson_distribution.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__atomic/to_gcc_order.h:
 
@@ -3390,8 +3295,6 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/reverse.h:
 
 /opt/homebrew/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-release.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/cauchy_distribution.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__concepts/same_as.h:
 
@@ -3493,14 +3396,6 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/machine/types.h:
 
-/opt/homebrew/share/cmake/Modules/Compiler/Clang.cmake:
-
-/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtGui.framework/Versions/A/Headers/qimage.h:
-
-/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/q20functional.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__numeric/reduce.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/_time.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__new/align_val_t.h:
@@ -3515,6 +3410,10 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/is_sorted_until.h:
 
+/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__fwd/memory.h:
 
 /opt/homebrew/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake:
@@ -3522,6 +3421,8 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/find_first_of.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/upper_bound.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/sys/_types/_blkcnt_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/machine/endian.h:
 
@@ -3553,13 +3454,15 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__system_error/error_code.h:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/Exception.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/ranges_copy.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/move.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/for_each_segment.h:
+
+/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/WorkoutService.h:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/InputException.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__atomic/atomic_sync.h:
 
@@ -3585,23 +3488,27 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__bit_reference:
 
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/gui/DashboardWindow.cpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/string.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__functional/is_transparent.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/negative_binomial_distribution.h:
-
 /opt/homebrew/lib/cmake/Qt6Core/Qt6CorePlugins.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/replace_copy.h:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/workout/CardioTraining.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__assert:
 
 /opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qanystringview.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/count_if.h:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/services/include/UndoManager.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__algorithm/iter_swap.h:
 
@@ -3624,8 +3531,6 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 /opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtGui.framework/Versions/A/Headers/qfontvariableaxis.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/sys/_types/_sigset_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/independent_bits_engine.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__concepts/movable.h:
 
@@ -3683,10 +3588,6 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__assertion_handler:
 
-/opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/q17memory.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__filesystem/path_iterator.h:
-
 /opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-release.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h:
@@ -3713,7 +3614,7 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__memory/inout_ptr.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__random/weibull_distribution.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__math/exponential_functions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.1.sdk/usr/include/c++/v1/__iterator/insert_iterator.h:
 

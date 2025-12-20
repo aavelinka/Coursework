@@ -821,5 +821,7 @@ CMakeFiles/coursework_core.dir/core/services/src/UserService.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/FileException.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/Exception.h \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/conteiner/Deque.hpp \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/conteiner/Deque.tpp \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/repositories/include/TextFile.tpp \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/InputException.h

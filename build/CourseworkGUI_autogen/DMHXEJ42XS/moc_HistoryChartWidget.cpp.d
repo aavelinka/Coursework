@@ -743,6 +743,8 @@
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/conteiner/Deque.hpp \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/conteiner/Deque.tpp \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/user/BodyMeasurement.h \
   /opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/q17memory.h \
   /opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/q20functional.h \

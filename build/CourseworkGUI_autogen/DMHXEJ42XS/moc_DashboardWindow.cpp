@@ -43,6 +43,14 @@ template <> constexpr inline auto DashboardWindow::qt_create_metaobjectdata<qt_m
         "",
         "saveMeasurement",
         "generatePlan",
+        "viewWorkouts",
+        "viewCurrentPlan",
+        "editWorkout",
+        "deleteWorkout",
+        "editManualPlan",
+        "deleteManualPlan",
+        "loadHistoryPlans",
+        "setPlanFromHistory",
         "undoLastAction",
         "logout"
     };
@@ -54,10 +62,26 @@ template <> constexpr inline auto DashboardWindow::qt_create_metaobjectdata<qt_m
         QtMocHelpers::SlotData<void()>(3, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'generatePlan'
         QtMocHelpers::SlotData<void()>(4, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'undoLastAction'
+        // Slot 'viewWorkouts'
         QtMocHelpers::SlotData<void()>(5, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'logout'
+        // Slot 'viewCurrentPlan'
         QtMocHelpers::SlotData<void()>(6, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'editWorkout'
+        QtMocHelpers::SlotData<void()>(7, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'deleteWorkout'
+        QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'editManualPlan'
+        QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'deleteManualPlan'
+        QtMocHelpers::SlotData<void()>(10, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'loadHistoryPlans'
+        QtMocHelpers::SlotData<void()>(11, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'setPlanFromHistory'
+        QtMocHelpers::SlotData<void()>(12, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'undoLastAction'
+        QtMocHelpers::SlotData<void()>(13, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'logout'
+        QtMocHelpers::SlotData<void()>(14, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -84,8 +108,16 @@ void DashboardWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
         case 0: _t->logoutRequested(); break;
         case 1: _t->saveMeasurement(); break;
         case 2: _t->generatePlan(); break;
-        case 3: _t->undoLastAction(); break;
-        case 4: _t->logout(); break;
+        case 3: _t->viewWorkouts(); break;
+        case 4: _t->viewCurrentPlan(); break;
+        case 5: _t->editWorkout(); break;
+        case 6: _t->deleteWorkout(); break;
+        case 7: _t->editManualPlan(); break;
+        case 8: _t->deleteManualPlan(); break;
+        case 9: _t->loadHistoryPlans(); break;
+        case 10: _t->setPlanFromHistory(); break;
+        case 11: _t->undoLastAction(); break;
+        case 12: _t->logout(); break;
         default: ;
         }
     }
@@ -114,14 +146,14 @@ int DashboardWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 5)
+        if (_id < 13)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
+        _id -= 13;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 5)
+        if (_id < 13)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 5;
+        _id -= 13;
     }
     return _id;
 }

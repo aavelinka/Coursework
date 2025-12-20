@@ -761,6 +761,8 @@
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/conteiner/Deque.hpp \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/conteiner/Deque.tpp \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/Exception.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/FileException.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/user/BodyMeasurement.h \

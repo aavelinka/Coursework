@@ -5,6 +5,7 @@ coursework_core_autogen/timestamp: /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kur
   CMakeFiles/4.1.1/CMakeCCompiler.cmake \
   CMakeFiles/4.1.1/CMakeCXXCompiler.cmake \
   CMakeFiles/4.1.1/CMakeSystem.cmake \
+  /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/conteiner/Deque.hpp \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/Exception.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/FileException.h \
   /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/InputException.h \
@@ -683,6 +684,8 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /opt/homebrew/lib/cmake/Qt6/QtPublicSbomHelpers.cmake:
 
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/conteiner/Deque.hpp:
+
 /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/utils/include/Menu.h:
 
 /opt/homebrew/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake:
@@ -861,12 +864,6 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/src/user/BodyMeasurement.cpp:
 
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/workout/CardioTraining.h:
-
-/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/CMakeLists.txt:
-
-/opt/homebrew/lib/cmake/Qt6/Qt6Targets.cmake:
-
 /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/exceptions/include/InputException.h:
 
 /opt/homebrew/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-release.cmake:
@@ -885,8 +882,14 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /opt/homebrew/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
 
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/CMakeLists.txt:
+
+/Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/include/workout/CardioTraining.h:
+
 /Users/avelinaklimova/Desktop/Uni/PNaYAVU/kursavaya/Code/core/models/src/user/Person.cpp:
 
 /opt/homebrew/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake:
 
 /opt/homebrew/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake:
+
+/opt/homebrew/lib/cmake/Qt6/Qt6Targets.cmake:
